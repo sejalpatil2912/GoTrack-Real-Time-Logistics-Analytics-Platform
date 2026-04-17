@@ -1,0 +1,86 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="text-center mt-20 mb-24">
+    <h1 class="text-5xl font-extrabold text-white mb-4 tracking-tight drop-shadow-[0_0_15px_rgba(255,255,255,0.1)]">Track your shipment</h1>
+    <p class="text-slate-400 text-lg mb-10 w-full max-w-xl mx-auto">Enter your GoTrack ID to access real-time predictive tracking arrays and logistical metrics.</p>
+    
+    <form action="{{ url_for('track_shipment') }}" method="POST" class="flex justify-center max-w-2xl mx-auto space-x-3">
+        <input type="text" name="shipment_id" placeholder="e.g. TRK-928374" required class="flex-1 bg-navy-800 border border-navy-700 focus:border-teal-500 rounded-lg px-6 py-4 text-white text-lg outline-none shadow-inner transition-colors placeholder-slate-500">
+        <button type="submit" class="bg-gradient-to-r from-teal-500 to-cyan-500 text-navy-900 font-bold px-8 py-4 rounded-lg shadow-[0_0_20px_rgba(0,229,255,0.3)] hover:scale-105 transition-transform">Track</button>
+    </form>
+
+    {% if tracking_result %}
+    <div class="mt-20 text-left">
+        <div class="bg-navy-800 border border-navy-700 p-8 rounded-xl shadow-2xl max-w-4xl mx-auto">
+            <div class="flex justify-between items-center border-b border-navy-700 pb-6 mb-6">
+                <h2 class="text-2xl font-bold text-white">Shipment {{ tracking_result.shipment_id }}</h2>
+                <span class="px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider
+                    {% if tracking_result.status == 'Delivered' %} bg-green-500/20 text-green-400 border border-green-500/30
+                    {% elif tracking_result.status == 'Delayed' %} bg-red-500/20 text-red-400 border border-red-500/30
+                    {% elif tracking_result.status == 'In Transit' %} bg-yellow-500/20 text-yellow-400 border border-yellow-500/30
+                    {% else %} bg-slate-500/20 text-slate-400 border border-slate-500/30 {% endif %}
+                ">{{ tracking_result.status }}</span>
+            </div>
+            
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <label class="text-slate-400 text-sm font-medium uppercase tracking-wider block mb-1">Origin</label>
+                    <p class="text-white font-semibold text-lg">{{ tracking_result.origin }}</p>
+                </div>
+                <div>
+                    <label class="text-slate-400 text-sm font-medium uppercase tracking-wider block mb-1">Destination</label>
+                    <p class="text-white font-semibold text-lg">{{ tracking_result.destination }}</p>
+                </div>
+                <div>
+                    <label class="text-slate-400 text-sm font-medium uppercase tracking-wider block mb-1">Carrier</label>
+                    <p class="text-white font-semibold text-lg">{{ tracking_result.carrier }} <span class="text-slate-500 text-sm">({{ tracking_result.transport_mode }})</span></p>
+                </div>
+                <div>
+                    <label class="text-slate-400 text-sm font-medium uppercase tracking-wider block mb-1">Total Weight</label>
+                    <p class="text-white font-semibold text-lg">{{ tracking_result.weight_kg }} kg</p>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 bg-navy-900/50 p-6 rounded-lg border border-navy-700/50">
+                <div>
+                    <label class="text-slate-400 text-sm font-medium uppercase tracking-wider block mb-1">Dispatched</label>
+                    <p class="text-teal-400">{{ tracking_result.dispatch_date }}</p>
+                </div>
+                <div>
+                    <label class="text-slate-400 text-sm font-medium uppercase tracking-wider block mb-1">Expected</label>
+                    <p class="text-teal-400">{{ tracking_result.expected_date }}</p>
+                </div>
+                <div>
+                    <label class="text-slate-400 text-sm font-medium uppercase tracking-wider block mb-1">Delivered</label>
+                    <p class="text-teal-400">{{ tracking_result.delivery_date or 'Pending' }}</p>
+                </div>
+                <div>
+                    <label class="text-slate-400 text-sm font-medium uppercase tracking-wider block mb-1">Carbon Footprint</label>
+                    <p class="text-teal-400 font-bold">{{ tracking_result.carbon_emissions_kg }} kg CO2</p>
+                </div>
+            </div>
+            
+            {% if tracking_result.risk_score %}
+            <div class="mt-6 border-t border-navy-700 pt-6">
+                <label class="text-slate-400 text-sm font-medium uppercase tracking-wider block mb-2 flex items-center">
+                    <svg class="w-4 h-4 mr-2 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"></path></svg>
+                    Predictive Delay Risk
+                </label>
+                <div class="w-full bg-navy-900 rounded-full h-3 mb-1 border border-navy-700 overflow-hidden">
+                    <div class="h-3 rounded-full 
+                        {% if tracking_result.risk_score > 60 %} bg-red-500
+                        {% elif tracking_result.risk_score > 30 %} bg-yellow-500 
+                        {% else %} bg-green-500 {% endif %}" 
+                        style="width: {{ tracking_result.risk_score }}%">
+                    </div>
+                </div>
+                <p class="text-xs text-slate-500 text-right">{{ tracking_result.risk_score }}% Probability driven by {{ tracking_result.weather_condition }} weather & {{ tracking_result.transport_mode }} transit.</p>
+            </div>
+            {% endif %}
+            
+        </div>
+    </div>
+    {% endif %}
+</div>
+{% endblock %}

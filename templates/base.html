@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoTrack Enterprise</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: { sans: ['Inter', 'sans-serif'] },
+            colors: {
+              navy: { 900: '#0a192f', 800: '#112240', 700: '#233554' },
+              teal: { 400: '#64ffda', 500: '#00e5ff' },
+              slate: { 300: '#ccd6f6', 400: '#8892b0' }
+            }
+          }
+        }
+      }
+    </script>
+</head>
+<body class="bg-navy-900 text-slate-300 antialiased min-h-screen">
+
+    <nav class="bg-navy-800 border-b border-navy-700 shadow-lg px-8 py-4 flex justify-between items-center sticky top-0 z-50">
+        <div class="logo">
+            <a href="{{ url_for('index') }}" class="text-2xl font-extrabold text-white tracking-tight">
+                GoTrack<span class="text-teal-500">.</span>
+            </a>
+        </div>
+        <div class="flex items-center space-x-6 text-sm font-medium">
+            <a href="{{ url_for('index') }}" class="hover:text-teal-400 transition-colors {% if request.endpoint == 'index' %}text-teal-400 border-b-2 border-teal-400 pb-1{% endif %}">Track</a>
+            {% if session.get('user_id') %}
+                {% if session.get('role') == 'admin' %}
+                    <a href="{{ url_for('admin_dashboard') }}" class="hover:text-teal-400 transition-colors {% if request.endpoint == 'admin_dashboard' %}text-teal-400 border-b-2 border-teal-400 pb-1{% endif %}">Admin Control</a>
+                {% else %}
+                    <a href="{{ url_for('user_dashboard') }}" class="hover:text-teal-400 transition-colors {% if request.endpoint == 'user_dashboard' %}text-teal-400 border-b-2 border-teal-400 pb-1{% endif %}">My Dashboard</a>
+                {% endif %}
+                <a href="{{ url_for('logout') }}" class="px-4 py-2 border border-teal-500 text-teal-400 hover:bg-teal-500/10 rounded-md transition-all">Logout</a>
+            {% else %}
+                <a href="{{ url_for('login') }}" class="hover:text-teal-400 transition-colors {% if request.endpoint == 'login' %}text-teal-400 border-b-2 border-teal-400 pb-1{% endif %}">Login</a>
+                <a href="{{ url_for('signup') }}" class="px-4 py-2 bg-teal-500 text-navy-900 font-bold hover:bg-teal-400 rounded-md shadow-[0_0_15px_rgba(0,229,255,0.3)] transition-all">Sign up</a>
+            {% endif %}
+        </div>
+    </nav>
+
+    <div class="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                <div class="mb-6 space-y-2">
+                {% for category, message in messages %}
+                    <div class="px-4 py-3 rounded-md text-sm font-semibold 
+                        {% if category == 'error' %} bg-red-500/10 text-red-400 border border-red-500/30 
+                        {% else %} bg-teal-500/10 text-teal-400 border border-teal-500/30 {% endif %}">
+                        {{ message }}
+                    </div>
+                {% endfor %}
+                </div>
+            {% endif %}
+        {% endwith %}
+        
+        {% block content %}{% endblock %}
+    </div>
+
+</body>
+</html>

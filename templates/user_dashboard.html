@@ -1,0 +1,89 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="mt-8">
+    <div class="mb-10 border-b border-navy-700 pb-6">
+        <h2 class="text-3xl font-extrabold text-white">Client Portal</h2>
+        <p class="text-slate-400 mt-2">View real-time tracking for all shipments assigned to {{ session.get('user_id') }}.</p>
+    </div>
+
+    <!-- Quick Tracker -->
+    <div class="bg-navy-800 border border-navy-700 p-8 rounded-xl shadow-2xl max-w-2xl mx-auto mb-16 text-center">
+        <h3 class="text-xl font-bold text-white mb-4">Quick GoTrack</h3>
+        <form action="{{ url_for('track_shipment') }}" method="POST" class="flex space-x-3">
+            <input type="text" name="shipment_id" placeholder="Enter Tracking ID (e.g. TRK-XXXX)" required class="flex-1 bg-navy-900 border border-navy-700 focus:border-teal-500 rounded-lg px-4 py-3 text-white outline-none transition-colors placeholder-slate-500">
+            <button type="submit" class="bg-teal-500 text-navy-900 font-bold px-8 py-3 rounded-lg hover:bg-teal-400 transition-colors shadow-[0_0_15px_rgba(0,229,255,0.3)]">Trace</button>
+        </form>
+    </div>
+
+    <!-- KPI Dashboard -->
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-12">
+        <div class="bg-navy-800 border border-navy-700 p-6 rounded-xl shadow-lg border-t-4 border-t-teal-500">
+            <p class="text-slate-400 text-sm font-bold uppercase tracking-wider">Total Consignments</p>
+            <h4 class="text-3xl font-extrabold text-white mt-2">{{ total_shipments }}</h4>
+        </div>
+        <div class="bg-navy-800 border border-navy-700 p-6 rounded-xl shadow-lg border-t-4 border-t-blue-500">
+            <p class="text-slate-400 text-sm font-bold uppercase tracking-wider">Active Shipments</p>
+            <h4 class="text-3xl font-extrabold text-white mt-2">{{ active_shipments }}</h4>
+        </div>
+        <div class="bg-navy-800 border border-navy-700 p-6 rounded-xl shadow-lg border-t-4 border-t-yellow-500">
+            <p class="text-slate-400 text-sm font-bold uppercase tracking-wider">Total Spend ($)</p>
+            <h4 class="text-3xl font-extrabold text-white mt-2">${{ "%.2f"|format(total_spend) }}</h4>
+        </div>
+        <div class="bg-navy-800 border border-navy-700 p-6 rounded-xl shadow-lg border-t-4 border-t-green-500">
+            <p class="text-slate-400 text-sm font-bold uppercase tracking-wider">Carbon Footprint</p>
+            <h4 class="text-3xl font-extrabold text-white mt-2">{{ "%.2f"|format(total_emissions) }} <span class="text-lg text-slate-500 font-normal">kg CO₂</span></h4>
+        </div>
+    </div>
+
+    <!-- User Shipments -->
+    <h3 class="text-2xl font-bold text-white mb-6">Your Consignments ({{ shipments|length }})</h3>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {% for s in shipments %}
+        <div class="bg-navy-800 border border-navy-700 rounded-xl overflow-hidden shadow-lg hover:border-teal-500/50 transition-colors">
+            <div class="p-5 border-b border-navy-700 flex justify-between items-center bg-navy-900/50">
+                <span class="font-bold text-white tracking-wide">{{ s.shipment_id }}</span>
+                <span class="px-3 py-1 rounded-full text-xs font-bold uppercase
+                    {% if s.status == 'Delivered' %} bg-green-500/20 text-green-400 border border-green-500/30
+                    {% elif s.status == 'Delayed' %} bg-red-500/20 text-red-400 border border-red-500/30
+                    {% elif s.status == 'In Transit' %} bg-yellow-500/20 text-yellow-400 border border-yellow-500/30
+                    {% else %} bg-slate-500/20 text-slate-400 border border-slate-500/30 {% endif %}">
+                    {{ s.status }}
+                </span>
+            </div>
+            <div class="p-6 space-y-4">
+                <div class="flex justify-between items-center text-lg font-semibold text-white">
+                    <span>{{ s.origin }}</span>
+                    <svg class="w-5 h-5 text-teal-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                    <span>{{ s.destination }}</span>
+                </div>
+                
+                <div class="grid grid-cols-2 gap-4 mt-4">
+                    <div>
+                        <p class="text-xs text-slate-500 uppercase tracking-wider mb-1">Carrier / Mode</p>
+                        <p class="text-slate-300">{{ s.carrier }} <span class="text-teal-400">({{ s.transport_mode }})</span></p>
+                    </div>
+                    <div>
+                        <p class="text-xs text-slate-500 uppercase tracking-wider mb-1">Risk Score</p>
+                        <p class="text-{% if s.risk_score > 60 %}red-400{% elif s.risk_score > 30 %}yellow-400{% else %}green-400{% endif %} font-bold">{{ s.risk_score }}%</p>
+                    </div>
+                </div>
+
+                <div class="pt-4 mt-4 border-t border-navy-700">
+                    <p class="text-sm text-slate-400">Expected: <span class="text-white">{{ s.expected_date }}</span></p>
+                    {% if s.status == 'Delivered' %}
+                    <p class="text-sm text-green-400 mt-1">Delivered: <span>{{ s.delivery_date }}</span></p>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        {% else %}
+        <div class="col-span-1 md:col-span-3 text-center py-12 bg-navy-800 rounded-xl border border-navy-700 border-dashed">
+            <h3 class="mt-2 text-lg font-medium text-slate-300">No shipments</h3>
+            <p class="mt-1 text-sm text-slate-500">You currently have no active consignments.</p>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

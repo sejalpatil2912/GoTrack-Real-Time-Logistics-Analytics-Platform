@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="min-h-[70vh] flex items-center justify-center">
+    <div class="bg-navy-800 border border-navy-700 p-8 rounded-xl shadow-2xl w-full max-w-md">
+        <div class="text-center mb-8">
+            <h2 class="text-3xl font-extrabold text-white">Welcome Back</h2>
+            <p class="text-slate-400 mt-2">Log in to your GoTrack dashboard</p>
+        </div>
+        
+        <form action="{{ url_for('login') }}" method="POST" class="space-y-6">
+            <div>
+                <label class="block text-slate-400 text-sm font-semibold mb-2">Email Address</label>
+                <input type="email" name="email" required placeholder="name@company.com" class="w-full bg-navy-900 border border-navy-700 focus:border-teal-500 rounded-lg px-4 py-3 text-white outline-none transition-colors">
+            </div>
+            <div>
+                <label class="block text-slate-400 text-sm font-semibold mb-2">Password</label>
+                <input type="password" name="password" required placeholder="••••••••" class="w-full bg-navy-900 border border-navy-700 focus:border-teal-500 rounded-lg px-4 py-3 text-white outline-none transition-colors">
+            </div>
+            
+            <button type="submit" class="w-full bg-teal-500 text-navy-900 font-bold text-lg px-8 py-3 rounded-lg hover:bg-teal-400 transition-colors shadow-[0_0_15px_rgba(0,229,255,0.3)]">Sign In</button>
+        </form>
+        
+        <p class="text-center text-slate-500 mt-6">
+            Don't have an account? <a href="{{ url_for('signup') }}" class="text-teal-400 font-semibold hover:underline">Sign up</a>
+        </p>
+    </div>
+</div>
+{% endblock %}

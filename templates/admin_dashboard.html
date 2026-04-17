@@ -1,0 +1,154 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="mt-4">
+    <div class="flex flex-col md:flex-row justify-between items-center mb-8 gap-4">
+        <div>
+            <h2 class="text-3xl font-extrabold text-white">Enterprise Admin Center</h2>
+            <p class="text-slate-400 mt-1">Manage global shipments, logistics data, and predictive metrics.</p>
+        </div>
+        <a href="{{ url_for('export_csv') }}" class="bg-teal-500 hover:bg-teal-400 text-navy-900 font-bold px-6 py-3 rounded-lg shadow-[0_0_15px_rgba(0,229,255,0.2)] transition-all flex items-center">
+            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+            Export to Power BI
+        </a>
+    </div>
+    
+    <div class="bg-navy-800 border border-navy-700 rounded-xl p-8 shadow-2xl mb-12">
+        <h3 class="text-xl font-bold text-white mb-6 border-b border-navy-700 pb-4">Create Freight Entry</h3>
+        <form action="{{ url_for('admin_dashboard') }}" method="POST" class="space-y-6">
+            <input type="hidden" name="action" value="add">
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div>
+                    <label class="block text-slate-400 text-sm font-semibold mb-2">Tracking ID</label>
+                    <input type="text" name="shipment_id" required placeholder="TRK-XXXX" class="w-full bg-navy-900 border border-navy-700 focus:border-teal-500 rounded-md px-4 py-2.5 text-white outline-none transition-colors">
+                </div>
+                <div>
+                    <label class="block text-slate-400 text-sm font-semibold mb-2">User Email</label>
+                    <input type="email" name="user_email" required placeholder="user@example.com" class="w-full bg-navy-900 border border-navy-700 focus:border-teal-500 rounded-md px-4 py-2.5 text-white outline-none transition-colors">
+                </div>
+                <div>
+                    <label class="block text-slate-400 text-sm font-semibold mb-2">Origin</label>
+                    <input type="text" name="origin" required class="w-full bg-navy-900 border border-navy-700 focus:border-teal-500 rounded-md px-4 py-2.5 text-white outline-none transition-colors">
+                </div>
+                <div>
+                    <label class="block text-slate-400 text-sm font-semibold mb-2">Destination</label>
+                    <input type="text" name="destination" required class="w-full bg-navy-900 border border-navy-700 focus:border-teal-500 rounded-md px-4 py-2.5 text-white outline-none transition-colors">
+                </div>
+                
+                <div>
+                    <label class="block text-slate-400 text-sm font-semibold mb-2">Cost ($)</label>
+                    <input type="number" step="0.01" name="cost" required class="w-full bg-navy-900 border border-navy-700 focus:border-teal-500 rounded-md px-4 py-2.5 text-white outline-none transition-colors">
+                </div>
+                <div>
+                    <label class="block text-slate-400 text-sm font-semibold mb-2">Dispatch Date</label>
+                    <input type="date" name="dispatch_date" required class="w-full bg-navy-900 border border-navy-700 focus:border-teal-500 rounded-md px-4 py-2.5 text-slate-300 outline-none transition-colors">
+                </div>
+                <div>
+                    <label class="block text-slate-400 text-sm font-semibold mb-2">Expected Date</label>
+                    <input type="date" name="expected_date" required class="w-full bg-navy-900 border border-navy-700 focus:border-teal-500 rounded-md px-4 py-2.5 text-slate-300 outline-none transition-colors">
+                </div>
+                <div>
+                    <label class="block text-slate-400 text-sm font-semibold mb-2">Carrier</label>
+                    <input type="text" name="carrier" required placeholder="FedEx, Maersk" class="w-full bg-navy-900 border border-navy-700 focus:border-teal-500 rounded-md px-4 py-2.5 text-white outline-none transition-colors">
+                </div>
+                
+                <div>
+                    <label class="block text-slate-400 text-sm font-semibold mb-2">Transport Mode</label>
+                    <select name="transport_mode" class="w-full bg-navy-900 border border-navy-700 focus:border-teal-500 rounded-md px-4 py-2.5 text-white outline-none transition-colors">
+                        <option value="Air">Air</option><option value="Sea">Sea</option><option value="Road">Road</option><option value="Rail">Rail</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="block text-slate-400 text-sm font-semibold mb-2">Weight (kg)</label>
+                    <input type="number" step="0.1" name="weight_kg" required value="100.0" class="w-full bg-navy-900 border border-navy-700 focus:border-teal-500 rounded-md px-4 py-2.5 text-white outline-none transition-colors">
+                </div>
+                <div>
+                    <label class="block text-slate-400 text-sm font-semibold mb-2">Weather Condition</label>
+                    <select name="weather_condition" class="w-full bg-navy-900 border border-navy-700 focus:border-teal-500 rounded-md px-4 py-2.5 text-white outline-none transition-colors">
+                        <option value="Clear">Clear</option><option value="Rain">Rain</option><option value="Storm">Storm</option><option value="Snow">Snow</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="block text-slate-400 text-sm font-semibold mb-2">Priority</label>
+                    <select name="priority" class="w-full bg-navy-900 border border-navy-700 focus:border-teal-500 rounded-md px-4 py-2.5 text-white outline-none transition-colors">
+                        <option value="Standard">Standard</option><option value="Express">Express</option>
+                    </select>
+                </div>
+            </div>
+            
+            <button type="submit" class="bg-teal-500 text-navy-900 font-bold px-8 py-3 rounded-md hover:bg-teal-400 transition-colors shadow-lg">Inject Shipment into Network</button>
+        </form>
+    </div>
+
+    <div class="bg-navy-800 border border-navy-700 rounded-xl shadow-2xl overflow-hidden">
+        <div class="p-6 border-b border-navy-700">
+            <h3 class="text-xl font-bold text-white">Global Shipments Ledger</h3>
+        </div>
+        <div class="overflow-x-auto">
+            <table class="w-full text-left whitespace-nowrap">
+                <thead class="bg-navy-900/50 text-slate-400 text-xs uppercase font-semibold">
+                    <tr>
+                        <th class="px-6 py-4 border-b border-navy-700">ID</th>
+                        <th class="px-6 py-4 border-b border-navy-700">Client ID</th>
+                        <th class="px-6 py-4 border-b border-navy-700">Route</th>
+                        <th class="px-6 py-4 border-b border-navy-700">Carrier / Mode</th>
+                        <th class="px-6 py-4 border-b border-navy-700">Condition</th>
+                        <th class="px-6 py-4 border-b border-navy-700">Risk Score</th>
+                        <th class="px-6 py-4 border-b border-navy-700">Carbon Footprint</th>
+                        <th class="px-6 py-4 border-b border-navy-700">Status</th>
+                        <th class="px-6 py-4 border-b border-navy-700">Expected</th>
+                        <th class="px-6 py-4 border-b border-navy-700">Actions</th>
+                    </tr>
+                </thead>
+                <tbody class="divide-y divide-navy-700 text-sm text-slate-300">
+                    {% for s in shipments %}
+                    <tr class="hover:bg-navy-700/30 transition-colors">
+                        <td class="px-6 py-4 font-bold text-white">{{ s.shipment_id }}</td>
+                        <td class="px-6 py-4">{{ s.user_email or s.user_id or 'Unassigned' }}</td>
+                        <td class="px-6 py-4">{{ s.origin }} &rarr; {{ s.destination }}</td>
+                        <td class="px-6 py-4">{{ s.carrier }} <span class="text-slate-500">({{ s.transport_mode }})</span></td>
+                        <td class="px-6 py-4">{{ s.weather_condition }}</td>
+                        <td class="px-6 py-4">
+                            <div class="flex items-center">
+                                <div class="w-16 bg-navy-900 rounded-full h-2 mr-2">
+                                    <div class="h-2 rounded-full {% if s.risk_score > 60 %}bg-red-500{% elif s.risk_score > 30 %}bg-yellow-500{% else %}bg-green-500{% endif %}" style="width: {{ s.risk_score }}%"></div>
+                                </div>
+                                <span class="text-xs">{{ s.risk_score }}%</span>
+                            </div>
+                        </td>
+                        <td class="px-6 py-4 font-medium">{{ s.carbon_emissions_kg }} kg</td>
+                        <td class="px-6 py-4">
+                            <span class="px-3 py-1 rounded-full text-xs font-bold
+                                {% if s.status == 'Delivered' %} bg-green-500/20 text-green-400 border border-green-500/30
+                                {% elif s.status == 'Delayed' %} bg-red-500/20 text-red-400 border border-red-500/30
+                                {% elif s.status == 'In Transit' %} bg-yellow-500/20 text-yellow-400 border border-yellow-500/30
+                                {% else %} bg-slate-500/20 text-slate-400 border border-slate-500/30 {% endif %}">
+                                {{ s.status }}
+                            </span>
+                        </td>
+                        <td class="px-6 py-4">{{ s.expected_date }}</td>
+                        <td class="px-6 py-4 flex gap-2">
+                            {% if s.status != 'Delivered' %}
+                            <form action="{{ url_for('admin_dashboard') }}" method="POST" class="inline">
+                                <input type="hidden" name="action" value="mark_delivered">
+                                <input type="hidden" name="shipment_id" value="{{ s.shipment_id }}">
+                                <button type="submit" class="bg-green-500/20 hover:bg-green-500/40 text-green-400 border border-green-500/50 px-3 py-1.5 rounded text-xs font-semibold transition-colors">Deliver</button>
+                            </form>
+                            {% endif %}
+                            <form action="{{ url_for('admin_dashboard') }}" method="POST" class="inline">
+                                <input type="hidden" name="action" value="delete">
+                                <input type="hidden" name="shipment_id" value="{{ s.shipment_id }}">
+                                <button type="submit" class="bg-red-500/10 hover:bg-red-500/30 text-red-400 border border-red-500/30 px-3 py-1.5 rounded text-xs font-semibold transition-colors" onclick="return confirm('Delete shipment?');">Delete</button>
+                            </form>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+

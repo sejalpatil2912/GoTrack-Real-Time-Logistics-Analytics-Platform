@@ -1,0 +1,502 @@
+﻿shipment_id,Route,origin,destination,status,cost,carrier,transport_mode,weight_kg,weather_condition,priority,carbon_emissions_kg,risk_score,dispatch_date,expected_date,delivery_date
+TRK-688672,Shanghai → London,Shanghai,London,Delivered,359.75,Hapag-Lloyd,Sea,1355.70,Clear,Express,54905.85,5,2026-02-04,2026-03-03,2026-03-04
+TRK-120104,Shanghai → London,Shanghai,London,Delivered,844.62,UPS,Air,1529.20,Clear,Standard,57345.00,10,2026-01-18,2026-01-21,2026-01-21
+TRK-836525,Dubai → Tokyo,Dubai,Tokyo,Delivered,839.32,Hapag-Lloyd,Road,3607.10,Clear,Express,81159.75,5,2026-01-25,2026-01-30,2026-01-30
+TRK-673092,Sydney → Melbourne,Sydney,Melbourne,Delayed,1468.33,DHL,Road,4951.60,Storm,Standard,155975.40,75,2026-03-15,2026-03-22,
+TRK-147742,Singapore → Paris,Singapore,Paris,Delivered,1154.70,UPS,Air,1732.80,Clear,Express,43320.00,5,2026-03-11,2026-03-13,2026-03-14
+TRK-188660,Mumbai → Sydney,Mumbai,Sydney,Delivered,1125.61,CMA CGM,Sea,4798.30,Clear,Standard,244713.30,10,2026-02-23,2026-03-29,2026-03-28
+TRK-119898,Rotterdam → Melbourne,Rotterdam,Melbourne,Delivered,1333.26,Hapag-Lloyd,Sea,2429.70,Clear,Express,116625.60,5,2026-02-07,2026-03-11,2026-03-13
+TRK-615261,Melbourne → Tokyo,Melbourne,Tokyo,Delayed,1252.22,FedEx,Air,1919.70,Snow,Express,71988.75,50,2026-02-01,2026-02-04,
+TRK-887363,Los Angeles → Berlin,Los Angeles,Berlin,Delivered,194.79,Maersk,Sea,1403.80,Clear,Standard,42114.00,10,2026-02-03,2026-02-23,2026-02-25
+TRK-437602,Chicago → London,Chicago,London,Delayed,1066.14,UPS,Air,1593.30,Clear,Express,79665.00,5,2026-03-14,2026-03-18,
+TRK-191830,Dubai → Shanghai,Dubai,Shanghai,Delivered,258.19,FedEx,Road,568.80,Clear,Standard,15357.60,10,2026-03-23,2026-03-29,2026-03-30
+TRK-409420,London → Dubai,London,Dubai,Delivered,1045.85,CMA CGM,Sea,2207.30,Clear,Critical,76151.85,5,2026-03-05,2026-03-28,2026-03-30
+TRK-964621,Sydney → Shanghai,Sydney,Shanghai,Delivered,991.83,Maersk,Sea,3407.40,Rain,Overnight,107333.10,25,2026-01-21,2026-02-11,2026-02-13
+TRK-859546,Toronto → Mumbai,Toronto,Mumbai,In Transit,282.83,Maersk,Sea,429.60,Extreme Heat,Overnight,25131.60,60,2026-03-20,2026-04-28,
+TRK-253598,Los Angeles → Dubai,Los Angeles,Dubai,Delivered,520.89,Maersk,Sea,1245.20,Clear,Critical,50430.60,5,2026-01-22,2026-02-18,2026-02-19
+TRK-569982,New York → Berlin,New York,Berlin,Delivered,1039.61,CMA CGM,Sea,2320.80,Clear,Standard,128804.40,10,2026-01-22,2026-02-28,2026-02-28
+TRK-651960,New York → Toronto,New York,Toronto,Delayed,1326.05,FedEx,Air,980.80,Storm,Critical,12260.00,70,2026-01-25,2026-01-26,
+TRK-431278,Tokyo → London,Tokyo,London,Delivered,1389.89,DHL,Air,1227.00,Rain,Overnight,46012.50,25,2026-04-01,2026-04-04,2026-04-04
+TRK-889333,Toronto → London,Toronto,London,Delivered,2219.10,CMA CGM,Sea,4830.50,Clear,Standard,195635.25,10,2026-02-10,2026-03-09,2026-03-08
+TRK-776612,Melbourne → Tokyo,Melbourne,Tokyo,In Transit,248.21,Maersk,Sea,1151.20,Clear,Standard,43170.00,10,2026-04-05,2026-04-30,
+TRK-952477,Shanghai → Mumbai,Shanghai,Mumbai,Delivered,571.14,UPS,Rail,1977.00,Clear,Overnight,29655.00,10,2026-02-03,2026-02-09,2026-02-10
+TRK-343277,Berlin → Melbourne,Berlin,Melbourne,Delayed,889.96,FedEx,Air,883.30,Clear,Standard,22082.50,10,2026-02-13,2026-02-15,
+TRK-690022,Chicago → Sydney,Chicago,Sydney,Delayed,1652.13,CMA CGM,Sea,2194.70,Storm,Overnight,102053.55,100,2026-02-07,2026-03-10,
+TRK-286009,Sydney → Chicago,Sydney,Chicago,In Transit,184.25,Maersk,Sea,367.60,Clear,Overnight,23710.20,10,2026-03-26,2026-05-08,
+TRK-226531,New York → Sydney,New York,Sydney,Delivered,2962.37,FedEx,Air,3566.40,Rain,Express,178320.00,20,2026-03-24,2026-03-28,2026-03-30
+TRK-587742,Shanghai → Paris,Shanghai,Paris,Delivered,958.56,DHL,Air,2489.90,Rain,Standard,93371.25,25,2026-01-30,2026-02-02,2026-02-04
+TRK-289386,Mumbai → Rotterdam,Mumbai,Rotterdam,Delivered,2323.02,DHL,Air,2428.20,Extreme Heat,Overnight,121410.00,35,2026-04-01,2026-04-05,2026-04-05
+TRK-739583,Dubai → Singapore,Dubai,Singapore,Delivered,963.90,DHL,Air,756.90,Clear,Overnight,9461.25,10,2026-04-09,2026-04-10,2026-04-09
+TRK-739829,Los Angeles → Paris,Los Angeles,Paris,Delayed,1123.26,Hapag-Lloyd,Sea,2686.00,Storm,Express,165189.00,95,2026-03-03,2026-04-13,
+TRK-482081,Tokyo → Mumbai,Tokyo,Mumbai,Delivered,839.66,FedEx,Air,1978.00,Clear,Standard,24725.00,10,2026-04-12,2026-04-13,2026-04-15
+TRK-236974,Rotterdam → Sydney,Rotterdam,Sydney,In Transit,625.14,Hapag-Lloyd,Sea,2562.80,Clear,Overnight,153768.00,10,2026-03-23,2026-05-02,
+TRK-775744,New York → Toronto,New York,Toronto,Delivered,2413.88,FedEx,Air,3761.80,Clear,Express,94045.00,5,2026-01-31,2026-02-02,2026-02-02
+TRK-167464,Berlin → Los Angeles,Berlin,Los Angeles,Delivered,2600.00,FedEx,Air,3710.20,Rain,Express,46377.50,20,2026-02-19,2026-02-20,2026-02-19
+TRK-110593,Mumbai → Dubai,Mumbai,Dubai,Delivered,1246.95,Hapag-Lloyd,Rail,4335.50,Clear,Overnight,140903.75,10,2026-01-16,2026-01-29,2026-01-31
+TRK-792014,Los Angeles → London,Los Angeles,London,In Transit,105.36,Maersk,Sea,265.40,Clear,Standard,14331.60,10,2026-03-30,2026-05-05,
+TRK-774777,Melbourne → Toronto,Melbourne,Toronto,Delivered,1466.19,FedEx,Air,3512.50,Rain,Express,175625.00,20,2026-04-02,2026-04-06,2026-04-07
+TRK-539095,Melbourne → Tokyo,Melbourne,Tokyo,Delayed,1892.60,CMA CGM,Sea,4131.00,Clear,Overnight,247860.00,10,2026-02-20,2026-04-01,
+TRK-168154,Mumbai → Tokyo,Mumbai,Tokyo,Delayed,758.09,DHL,Air,14.70,Storm,Overnight,367.50,75,2026-03-07,2026-03-09,
+TRK-718684,New York → Melbourne,New York,Melbourne,Delivered,2352.86,DHL,Air,3391.60,Clear,Critical,42395.00,5,2026-01-16,2026-01-17,2026-01-18
+TRK-349101,Chicago → Mumbai,Chicago,Mumbai,Delivered,3762.59,Hapag-Lloyd,Sea,4942.00,Clear,Express,207564.00,5,2026-02-26,2026-03-26,2026-03-25
+TRK-171265,Tokyo → New York,Tokyo,New York,Delivered,514.81,Hapag-Lloyd,Sea,850.60,Rain,Express,51036.00,20,2026-02-20,2026-04-01,2026-04-01
+TRK-604134,Chicago → Melbourne,Chicago,Melbourne,Delivered,454.71,Maersk,Sea,1150.70,Clear,Critical,63863.85,5,2026-02-15,2026-03-24,2026-03-25
+TRK-898378,Melbourne → Mumbai,Melbourne,Mumbai,Delivered,1310.87,Hapag-Lloyd,Sea,1882.10,Rain,Express,104456.55,20,2026-01-28,2026-03-06,2026-03-06
+TRK-455905,Los Angeles → Melbourne,Los Angeles,Melbourne,Delayed,1483.85,FedEx,Air,4187.60,Snow,Standard,52345.00,55,2026-01-30,2026-01-31,
+TRK-580763,Sydney → Paris,Sydney,Paris,Delayed,1567.68,DHL,Air,1787.00,Storm,Express,67012.50,70,2026-03-21,2026-03-24,
+TRK-929081,Shanghai → Los Angeles,Shanghai,Los Angeles,In Transit,1950.52,Hapag-Lloyd,Sea,2818.10,Rain,Overnight,109905.90,25,2026-03-21,2026-04-16,
+TRK-407640,Chicago → Melbourne,Chicago,Melbourne,Delivered,881.66,UPS,Air,259.40,Clear,Express,9727.50,5,2026-04-05,2026-04-08,2026-04-09
+TRK-123255,New York → London,New York,London,Delivered,3734.72,DHL,Air,4404.40,Clear,Overnight,220220.00,10,2026-01-17,2026-01-21,2026-01-22
+TRK-429116,Berlin → London,Berlin,London,Delayed,1892.85,Maersk,Road,4029.10,Rain,Critical,54392.85,20,2026-01-20,2026-01-23,
+TRK-931659,New York → Toronto,New York,Toronto,Delayed,2574.65,FedEx,Air,4067.30,Snow,Overnight,50841.25,55,2026-01-14,2026-01-15,
+TRK-115408,Berlin → Chicago,Berlin,Chicago,Delayed,922.20,FedEx,Air,455.60,Rain,Overnight,5695.00,25,2026-04-10,2026-04-11,
+TRK-745583,London → Sydney,London,Sydney,Delivered,1279.75,UPS,Air,2204.70,Clear,Critical,110235.00,5,2026-01-14,2026-01-18,2026-01-18
+TRK-799140,Singapore → Tokyo,Singapore,Tokyo,Delivered,848.37,UPS,Air,168.90,Clear,Overnight,2111.25,10,2026-01-18,2026-01-19,2026-01-19
+TRK-462278,Singapore → Sydney,Singapore,Sydney,Delivered,816.15,FedEx,Air,246.70,Clear,Overnight,3083.75,10,2026-02-13,2026-02-14,2026-02-16
+TRK-650684,Mumbai → Los Angeles,Mumbai,Los Angeles,Delivered,1209.68,Hapag-Lloyd,Sea,2872.50,Clear,Express,99101.25,5,2026-01-30,2026-02-22,2026-02-24
+TRK-703569,Sydney → Shanghai,Sydney,Shanghai,In Transit,1006.14,UPS,Air,1101.80,Rain,Express,27545.00,20,2026-04-13,2026-04-15,
+TRK-368725,Singapore → Berlin,Singapore,Berlin,In Transit,418.48,Maersk,Sea,2042.30,Clear,Standard,88840.05,10,2026-04-04,2026-05-03,
+TRK-662314,Los Angeles → Tokyo,Los Angeles,Tokyo,Delivered,4032.57,UPS,Air,4436.90,Clear,Critical,166383.75,5,2026-03-04,2026-03-07,2026-03-07
+TRK-289714,Melbourne → New York,Melbourne,New York,Delivered,1218.63,DHL,Air,1619.80,Clear,Critical,80990.00,5,2026-04-03,2026-04-07,2026-04-08
+TRK-395045,Melbourne → New York,Melbourne,New York,In Transit,3030.99,Hapag-Lloyd,Sea,4090.90,Rain,Overnight,227044.95,25,2026-04-06,2026-05-13,
+TRK-770283,Berlin → Tokyo,Berlin,Tokyo,Delivered,1109.84,DHL,Air,1614.70,Clear,Overnight,40367.50,10,2026-04-11,2026-04-13,2026-04-12
+TRK-176309,New York → Chicago,New York,Chicago,Delivered,289.01,UPS,Rail,418.40,Clear,Overnight,6276.00,10,2026-02-23,2026-03-01,2026-03-03
+TRK-586942,Shanghai → Sydney,Shanghai,Sydney,Delayed,1314.96,UPS,Air,1661.50,Storm,Standard,41537.50,75,2026-02-28,2026-03-02,
+TRK-384414,Melbourne → Toronto,Melbourne,Toronto,Delayed,732.63,CMA CGM,Sea,2992.10,Rain,Express,125668.20,20,2026-01-25,2026-02-22,
+TRK-112941,London → New York,London,New York,Delayed,759.17,Maersk,Sea,2274.20,Rain,Overnight,115984.20,25,2026-02-11,2026-03-17,
+TRK-782528,Toronto → London,Toronto,London,Delivered,3902.97,UPS,Air,4898.30,Clear,Express,244915.00,5,2026-01-14,2026-01-18,2026-01-17
+TRK-822409,Sydney → Melbourne,Sydney,Melbourne,Delivered,2729.35,DHL,Air,4610.40,Clear,Standard,115260.00,10,2026-04-03,2026-04-05,2026-04-07
+TRK-126965,Melbourne → Dubai,Melbourne,Dubai,Delivered,161.28,Maersk,Sea,461.60,Clear,Critical,28388.40,5,2026-02-10,2026-03-23,2026-03-25
+TRK-972732,Melbourne → Dubai,Melbourne,Dubai,Delivered,2079.60,FedEx,Air,2019.30,Clear,Overnight,50482.50,10,2026-03-06,2026-03-08,2026-03-08
+TRK-249778,Melbourne → Sydney,Melbourne,Sydney,Delivered,3264.32,FedEx,Air,4629.70,Clear,Express,231485.00,5,2026-01-27,2026-01-31,2026-01-30
+TRK-108743,Sydney → Singapore,Sydney,Singapore,Delivered,1384.50,FedEx,Air,1649.90,Rain,Express,20623.75,20,2026-03-29,2026-03-30,2026-03-31
+TRK-274349,Paris → Chicago,Paris,Chicago,In Transit,115.97,Maersk,Sea,625.30,Clear,Standard,34704.15,10,2026-03-25,2026-05-01,
+TRK-784001,Shanghai → Toronto,Shanghai,Toronto,Delivered,1142.72,UPS,Air,1404.70,Clear,Standard,52676.25,10,2026-01-22,2026-01-25,2026-01-25
+TRK-912784,Dubai → Berlin,Dubai,Berlin,Delayed,1602.90,Hapag-Lloyd,Sea,3897.30,Clear,Overnight,227992.05,10,2026-02-02,2026-03-13,
+TRK-378703,Toronto → Rotterdam,Toronto,Rotterdam,In Transit,1069.59,CMA CGM,Sea,3286.10,Clear,Standard,192236.85,10,2026-03-27,2026-05-05,
+TRK-643993,Singapore → Dubai,Singapore,Dubai,Delivered,333.89,Hapag-Lloyd,Road,1303.90,Clear,Standard,17602.65,10,2026-03-21,2026-03-24,2026-03-23
+TRK-973672,Dubai → Paris,Dubai,Paris,Delivered,2337.71,DHL,Air,4827.20,Clear,Express,181020.00,5,2026-04-02,2026-04-05,2026-04-05
+TRK-993961,Melbourne → Paris,Melbourne,Paris,Delivered,2199.78,FedEx,Air,3613.20,Rain,Critical,135495.00,20,2026-02-03,2026-02-06,2026-02-07
+TRK-439691,Singapore → New York,Singapore,New York,In Transit,553.22,CMA CGM,Sea,1403.50,Clear,Critical,69473.25,5,2026-03-28,2026-04-30,
+TRK-892481,Sydney → Tokyo,Sydney,Tokyo,In Transit,1901.04,CMA CGM,Sea,4855.80,Storm,Critical,203943.60,95,2026-03-26,2026-04-23,
+TRK-572573,Sydney → Paris,Sydney,Paris,Delayed,408.06,Maersk,Sea,765.10,Clear,Overnight,50496.60,10,2026-02-01,2026-03-17,
+TRK-599832,Sydney → Dubai,Sydney,Dubai,Delayed,464.60,CMA CGM,Sea,1645.60,Storm,Standard,49368.00,100,2026-02-27,2026-03-19,
+TRK-119326,Rotterdam → Berlin,Rotterdam,Berlin,Delivered,2402.81,CMA CGM,Road,4334.40,Clear,Critical,136533.60,5,2026-03-15,2026-03-22,2026-03-24
+TRK-429121,New York → Tokyo,New York,Tokyo,Delivered,1714.26,Hapag-Lloyd,Sea,2333.00,Clear,Critical,129481.50,5,2026-02-17,2026-03-26,2026-03-25
+TRK-952808,Sydney → Los Angeles,Sydney,Los Angeles,Delivered,1738.88,Hapag-Lloyd,Sea,2918.20,Clear,Overnight,96300.60,10,2026-01-17,2026-02-08,2026-02-10
+TRK-249312,Toronto → Singapore,Toronto,Singapore,In Transit,995.82,Maersk,Sea,1236.90,Clear,Critical,83490.75,5,2026-04-03,2026-05-18,
+TRK-801973,Sydney → New York,Sydney,New York,In Transit,646.64,Hapag-Lloyd,Sea,3335.10,Clear,Overnight,100053.00,10,2026-04-04,2026-04-24,
+TRK-405049,Shanghai → Sydney,Shanghai,Sydney,Delivered,2452.14,UPS,Air,3273.30,Clear,Critical,81832.50,5,2026-02-24,2026-02-26,2026-02-28
+TRK-477436,Melbourne → Mumbai,Melbourne,Mumbai,Delivered,1735.76,FedEx,Air,1345.30,Clear,Express,16816.25,5,2026-03-04,2026-03-05,2026-03-05
+TRK-647189,Sydney → Mumbai,Sydney,Mumbai,Delivered,1457.28,Maersk,Sea,4032.90,Extreme Heat,Express,151233.75,55,2026-01-20,2026-02-14,2026-02-15
+TRK-188151,Sydney → Toronto,Sydney,Toronto,Delivered,1274.72,Hapag-Lloyd,Sea,2393.00,Clear,Express,122043.00,5,2026-01-27,2026-03-02,2026-03-04
+TRK-830170,Berlin → Los Angeles,Berlin,Los Angeles,Delivered,550.44,Maersk,Sea,717.60,Rain,Overnight,31215.60,25,2026-02-05,2026-03-06,2026-03-07
+TRK-618717,Berlin → Chicago,Berlin,Chicago,Delivered,2972.82,UPS,Air,3254.00,Clear,Express,122025.00,5,2026-03-02,2026-03-05,2026-03-05
+TRK-714431,Chicago → Rotterdam,Chicago,Rotterdam,Delivered,997.53,UPS,Air,561.10,Clear,Overnight,28055.00,10,2026-04-03,2026-04-07,2026-04-09
+TRK-277727,London → Melbourne,London,Melbourne,Delayed,2385.49,DHL,Air,4177.80,Snow,Standard,156667.50,55,2026-03-25,2026-03-28,
+TRK-778087,Melbourne → Dubai,Melbourne,Dubai,Delivered,1833.90,Hapag-Lloyd,Sea,4331.10,Clear,Critical,149422.95,5,2026-01-21,2026-02-13,2026-02-15
+TRK-834607,London → Berlin,London,Berlin,Delivered,1681.10,FedEx,Road,4793.50,Clear,Express,64712.25,5,2026-03-19,2026-03-22,2026-03-23
+TRK-759051,Sydney → London,Sydney,London,In Transit,2876.76,CMA CGM,Sea,4803.40,Clear,Critical,151307.10,5,2026-03-31,2026-04-21,
+TRK-980275,Shanghai → New York,Shanghai,New York,Delivered,1985.09,Hapag-Lloyd,Sea,2674.30,Rain,Express,80229.00,20,2026-03-22,2026-04-11,2026-04-12
+TRK-617830,Melbourne → Mumbai,Melbourne,Mumbai,In Transit,1280.72,CMA CGM,Sea,2978.30,Rain,Overnight,134023.50,25,2026-04-06,2026-05-06,
+TRK-895820,Toronto → Melbourne,Toronto,Melbourne,Delivered,2101.44,CMA CGM,Sea,4997.70,Rain,Critical,239889.60,20,2026-01-17,2026-02-18,2026-02-19
+TRK-316448,Tokyo → Chicago,Tokyo,Chicago,Delivered,758.78,CMA CGM,Sea,1153.10,Clear,Overnight,58808.10,10,2026-03-06,2026-04-09,2026-04-08
+TRK-833302,New York → Toronto,New York,Toronto,Delivered,2093.88,DHL,Air,4632.80,Extreme Heat,Standard,115820.00,35,2026-01-20,2026-01-22,2026-01-21
+TRK-260541,Sydney → Toronto,Sydney,Toronto,In Transit,435.35,CMA CGM,Sea,1836.60,Extreme Heat,Express,115705.80,55,2026-03-28,2026-05-09,
+TRK-991861,Mumbai → New York,Mumbai,New York,Delivered,2072.12,DHL,Air,3629.30,Clear,Standard,45366.25,10,2026-03-02,2026-03-03,2026-03-04
+TRK-899584,Sydney → Melbourne,Sydney,Melbourne,Delivered,1034.87,Maersk,Road,2502.10,Clear,Overnight,56297.25,10,2026-01-24,2026-01-29,2026-01-28
+TRK-800536,Mumbai → London,Mumbai,London,Delivered,1703.45,UPS,Air,2049.10,Clear,Overnight,25613.75,10,2026-04-01,2026-04-02,2026-04-04
+TRK-969797,Mumbai → Shanghai,Mumbai,Shanghai,Delivered,2752.23,CMA CGM,Road,4447.60,Clear,Overnight,100071.00,10,2026-02-27,2026-03-04,2026-03-03
+TRK-733766,Sydney → New York,Sydney,New York,Delayed,1581.87,Maersk,Sea,4527.10,Storm,Overnight,305579.25,100,2026-01-24,2026-03-10,
+TRK-971408,Sydney → New York,Sydney,New York,Delayed,75.25,Hapag-Lloyd,Sea,64.70,Storm,Standard,3202.65,100,2026-02-18,2026-03-23,
+TRK-595776,Mumbai → Sydney,Mumbai,Sydney,Delivered,1373.83,CMA CGM,Sea,3700.40,Rain,Standard,188720.40,25,2026-03-03,2026-04-06,2026-04-08
+TRK-640726,Mumbai → Rotterdam,Mumbai,Rotterdam,Delivered,3147.09,FedEx,Air,3313.10,Clear,Express,165655.00,5,2026-01-23,2026-01-27,2026-01-27
+TRK-782491,Rotterdam → Sydney,Rotterdam,Sydney,Delayed,1017.78,CMA CGM,Sea,2829.50,Extreme Heat,Express,169770.00,55,2026-02-07,2026-03-19,
+TRK-580024,Rotterdam → Sydney,Rotterdam,Sydney,Delivered,1831.66,Hapag-Lloyd,Sea,3920.30,Rain,Standard,241098.45,25,2026-02-12,2026-03-25,2026-03-26
+TRK-586034,Mumbai → Shanghai,Mumbai,Shanghai,Delayed,654.15,FedEx,Road,1196.20,Rain,Standard,16148.70,25,2026-01-26,2026-01-29,
+TRK-286618,Los Angeles → London,Los Angeles,London,Delivered,494.40,Maersk,Sea,774.80,Rain,Overnight,49974.60,25,2026-02-10,2026-03-25,2026-03-27
+TRK-551645,Shanghai → Melbourne,Shanghai,Melbourne,Delivered,1728.25,DHL,Air,2469.40,Clear,Standard,30867.50,10,2026-02-12,2026-02-13,2026-02-13
+TRK-751212,Melbourne → Toronto,Melbourne,Toronto,In Transit,921.32,CMA CGM,Sea,4010.50,Clear,Standard,132346.50,10,2026-04-12,2026-05-04,
+TRK-340136,Shanghai → Chicago,Shanghai,Chicago,Delivered,994.05,DHL,Air,1274.90,Rain,Express,15936.25,20,2026-03-29,2026-03-30,2026-03-30
+TRK-475992,Shanghai → Toronto,Shanghai,Toronto,Delayed,1735.47,DHL,Air,4320.00,Clear,Express,108000.00,5,2026-02-19,2026-02-21,
+TRK-137878,Berlin → Melbourne,Berlin,Melbourne,In Transit,99.24,Maersk,Sea,32.40,Clear,Overnight,2138.40,10,2026-03-12,2026-04-25,
+TRK-386304,Melbourne → London,Melbourne,London,In Transit,527.58,CMA CGM,Sea,938.60,Extreme Heat,Overnight,57723.90,60,2026-03-29,2026-05-09,
+TRK-728760,Rotterdam → Sydney,Rotterdam,Sydney,Delivered,954.72,CMA CGM,Sea,1280.60,Rain,Overnight,78756.90,25,2026-01-27,2026-03-09,2026-03-08
+TRK-508020,Chicago → London,Chicago,London,In Transit,983.94,Hapag-Lloyd,Sea,2667.30,Rain,Standard,132031.35,25,2026-03-17,2026-04-19,
+TRK-294590,Sydney → Toronto,Sydney,Toronto,Delayed,1187.61,UPS,Air,1675.90,Clear,Overnight,20948.75,10,2026-03-28,2026-03-29,
+TRK-680947,Melbourne → Toronto,Melbourne,Toronto,Delivered,1611.30,CMA CGM,Sea,4225.70,Clear,Express,228187.80,5,2026-01-16,2026-02-21,2026-02-23
+TRK-763344,London → Rotterdam,London,Rotterdam,Delivered,776.62,UPS,Air,2638.80,Clear,Standard,65970.00,10,2026-02-27,2026-03-01,2026-03-01
+TRK-878201,Shanghai → Dubai,Shanghai,Dubai,Delivered,1336.47,BlueDart,Road,3623.40,Clear,Overnight,65221.20,10,2026-02-28,2026-03-04,2026-03-05
+TRK-197347,Los Angeles → Chicago,Los Angeles,Chicago,Delayed,1654.64,Hapag-Lloyd,Road,4310.80,Storm,Standard,116391.60,75,2026-03-19,2026-03-25,
+TRK-919218,Melbourne → Berlin,Melbourne,Berlin,Delivered,2780.28,DHL,Air,2898.80,Extreme Heat,Overnight,36235.00,35,2026-02-18,2026-02-19,2026-02-19
+TRK-901366,Chicago → Los Angeles,Chicago,Los Angeles,Delivered,927.36,DHL,Air,381.10,Clear,Critical,19055.00,5,2026-03-22,2026-03-26,2026-03-27
+TRK-581625,Los Angeles → Shanghai,Los Angeles,Shanghai,Delivered,2406.48,DHL,Air,4915.50,Clear,Critical,122887.50,5,2026-03-07,2026-03-09,2026-03-10
+TRK-408198,New York → Chicago,New York,Chicago,Delayed,2200.53,FedEx,Road,4549.30,Clear,Express,81887.40,5,2026-02-22,2026-02-26,
+TRK-696907,Sydney → New York,Sydney,New York,Delayed,3068.02,UPS,Air,4728.80,Clear,Overnight,177330.00,10,2026-02-13,2026-02-16,
+TRK-751214,Tokyo → Singapore,Tokyo,Singapore,Delayed,2045.69,FedEx,Air,4378.10,Snow,Express,164178.75,50,2026-03-31,2026-04-03,
+TRK-473733,Sydney → Mumbai,Sydney,Mumbai,Delayed,2028.09,FedEx,Air,1745.90,Storm,Express,87295.00,70,2026-04-07,2026-04-11,
+TRK-784797,Tokyo → Melbourne,Tokyo,Melbourne,Delivered,1777.66,FedEx,Air,3973.50,Clear,Standard,99337.50,10,2026-02-25,2026-02-27,2026-02-28
+TRK-726907,Toronto → New York,Toronto,New York,Delayed,3006.13,UPS,Road,4509.50,Storm,Express,40585.50,70,2026-03-07,2026-03-09,
+TRK-924244,Shanghai → Chicago,Shanghai,Chicago,Delivered,931.69,UPS,Air,2308.90,Clear,Standard,28861.25,10,2026-03-08,2026-03-09,2026-03-11
+TRK-690672,New York → Melbourne,New York,Melbourne,In Transit,1052.90,Maersk,Sea,2428.90,Clear,Standard,160307.40,10,2026-03-30,2026-05-13,
+TRK-100823,Melbourne → Sydney,Melbourne,Sydney,Delayed,3192.11,CMA CGM,Road,4789.20,Snow,Critical,107757.00,50,2026-02-04,2026-02-09,
+TRK-218980,Shanghai → Sydney,Shanghai,Sydney,Delivered,2728.32,DHL,Air,3937.20,Clear,Express,49215.00,5,2026-04-03,2026-04-04,2026-04-04
+TRK-789158,Sydney → Melbourne,Sydney,Melbourne,Delivered,2368.11,DHL,Air,2407.60,Rain,Overnight,30095.00,25,2026-02-27,2026-02-28,2026-02-27
+TRK-186976,Paris → Dubai,Paris,Dubai,In Transit,1607.16,Maersk,Sea,2486.30,Clear,Express,164095.80,5,2026-04-07,2026-05-21,
+TRK-717397,Mumbai → Singapore,Mumbai,Singapore,Delivered,2469.50,BlueDart,Rail,3116.70,Clear,Critical,46750.50,5,2026-01-14,2026-01-20,2026-01-22
+TRK-923445,Sydney → Rotterdam,Sydney,Rotterdam,Delivered,1683.62,UPS,Air,1763.40,Clear,Overnight,66127.50,10,2026-02-20,2026-02-23,2026-02-24
+TRK-154491,Shanghai → Sydney,Shanghai,Sydney,Delivered,2344.36,DHL,Air,4791.80,Clear,Standard,59897.50,10,2026-01-25,2026-01-26,2026-01-27
+TRK-486845,Chicago → Melbourne,Chicago,Melbourne,In Transit,2043.63,Maersk,Sea,4092.90,Clear,Standard,221016.60,10,2026-04-06,2026-05-12,
+TRK-281865,Tokyo → Melbourne,Tokyo,Melbourne,Delivered,1116.01,DHL,Air,747.60,Clear,Critical,18690.00,5,2026-03-18,2026-03-20,2026-03-22
+TRK-398296,New York → Rotterdam,New York,Rotterdam,Delayed,979.89,FedEx,Air,1064.60,Clear,Overnight,13307.50,10,2026-02-21,2026-02-22,
+TRK-298229,Mumbai → Berlin,Mumbai,Berlin,In Transit,821.00,Maersk,Sea,1650.30,Rain,Express,91591.65,20,2026-03-17,2026-04-23,
+TRK-974053,Melbourne → Sydney,Melbourne,Sydney,Delivered,1288.68,BlueDart,Rail,2673.80,Clear,Standard,66845.00,10,2026-03-04,2026-03-14,2026-03-15
+TRK-633304,Paris → Shanghai,Paris,Shanghai,In Transit,1638.84,Hapag-Lloyd,Sea,2148.40,Clear,Overnight,119236.20,10,2026-03-25,2026-05-01,
+TRK-181569,Tokyo → Sydney,Tokyo,Sydney,Delivered,1165.40,Maersk,Sea,4650.00,Rain,Standard,223200.00,25,2026-01-31,2026-03-04,2026-03-06
+TRK-649071,New York → Berlin,New York,Berlin,Delivered,1057.92,DHL,Air,1167.60,Clear,Critical,43785.00,5,2026-03-08,2026-03-11,2026-03-11
+TRK-910484,Paris → Los Angeles,Paris,Los Angeles,Delayed,3095.28,Hapag-Lloyd,Sea,4379.20,Storm,Express,289027.20,95,2026-02-13,2026-03-29,
+TRK-586957,London → Mumbai,London,Mumbai,In Transit,874.71,Maersk,Sea,1274.50,Clear,Express,74558.25,5,2026-04-09,2026-05-18,
+TRK-633395,Melbourne → Singapore,Melbourne,Singapore,In Transit,1760.38,Maersk,Sea,3468.40,Clear,Overnight,150875.40,10,2026-04-10,2026-05-09,
+TRK-851746,New York → Rotterdam,New York,Rotterdam,In Transit,548.22,CMA CGM,Sea,4505.10,Rain,Standard,195971.85,25,2026-04-02,2026-05-01,
+TRK-545232,New York → Rotterdam,New York,Rotterdam,Delivered,2014.22,DHL,Air,1798.00,Rain,Critical,44950.00,20,2026-02-20,2026-02-22,2026-02-23
+TRK-269379,London → Chicago,London,Chicago,Delivered,939.09,FedEx,Air,978.00,Clear,Overnight,36675.00,10,2026-02-22,2026-02-25,2026-02-24
+TRK-708095,Dubai → Mumbai,Dubai,Mumbai,Delayed,1468.25,FedEx,Air,3055.80,Clear,Overnight,114592.50,10,2026-03-23,2026-03-26,
+TRK-549115,Los Angeles → Singapore,Los Angeles,Singapore,Delivered,783.46,Hapag-Lloyd,Sea,2172.70,Clear,Standard,110807.70,10,2026-02-19,2026-03-25,2026-03-24
+TRK-163927,Toronto → Chicago,Toronto,Chicago,Delivered,949.01,Hapag-Lloyd,Road,3552.40,Clear,Standard,95914.80,10,2026-02-02,2026-02-08,2026-02-10
+TRK-546183,New York → Shanghai,New York,Shanghai,Delivered,1045.36,UPS,Air,1166.20,Clear,Standard,43732.50,10,2026-04-05,2026-04-08,2026-04-10
+TRK-844723,Shanghai → Dubai,Shanghai,Dubai,Delivered,2259.56,Maersk,Road,4845.70,Clear,Overnight,109028.25,10,2026-03-03,2026-03-08,2026-03-10
+TRK-872881,Paris → Rotterdam,Paris,Rotterdam,Delivered,919.50,UPS,Air,263.40,Clear,Overnight,3292.50,10,2026-03-25,2026-03-26,2026-03-28
+TRK-183480,Dubai → Singapore,Dubai,Singapore,Delivered,1387.07,FedEx,Air,2414.60,Rain,Express,30182.50,20,2026-01-15,2026-01-16,2026-01-18
+TRK-827359,London → Rotterdam,London,Rotterdam,Delivered,1416.63,DHL,Air,2657.60,Clear,Standard,132880.00,10,2026-02-18,2026-02-22,2026-02-24
+TRK-653803,Melbourne → Sydney,Melbourne,Sydney,Delayed,1230.17,Hapag-Lloyd,Road,1872.20,Clear,Critical,58974.30,5,2026-04-04,2026-04-11,
+TRK-823841,Rotterdam → Paris,Rotterdam,Paris,Delivered,1656.59,BlueDart,Rail,4413.80,Clear,Critical,110345.00,5,2026-02-10,2026-02-20,2026-02-22
+TRK-948425,Melbourne → Sydney,Melbourne,Sydney,Delayed,479.47,Maersk,Rail,2162.00,Clear,Standard,54050.00,10,2026-01-16,2026-01-26,
+TRK-534061,Chicago → Melbourne,Chicago,Melbourne,Delivered,427.71,Hapag-Lloyd,Sea,1853.80,Extreme Heat,Overnight,119570.10,60,2026-01-14,2026-02-26,2026-02-28
+TRK-939090,Sydney → Singapore,Sydney,Singapore,In Transit,1988.96,DHL,Air,3963.20,Snow,Overnight,198160.00,55,2026-04-13,2026-04-17,
+TRK-672189,Melbourne → Sydney,Melbourne,Sydney,Delivered,1862.49,FedEx,Road,3345.10,Clear,Express,45158.85,5,2026-04-07,2026-04-10,2026-04-10
+TRK-722439,New York → Tokyo,New York,Tokyo,Delivered,75.63,Hapag-Lloyd,Sea,204.80,Clear,Standard,11366.40,10,2026-02-15,2026-03-24,2026-03-23
+TRK-793704,Sydney → Paris,Sydney,Paris,Delivered,2118.17,FedEx,Air,3477.10,Clear,Critical,43463.75,5,2026-03-21,2026-03-22,2026-03-22
+TRK-206048,Melbourne → Sydney,Melbourne,Sydney,Delivered,261.31,DHL,Road,666.20,Clear,Standard,8993.70,10,2026-02-02,2026-02-05,2026-02-07
+TRK-559590,Shanghai → Rotterdam,Shanghai,Rotterdam,In Transit,100.41,CMA CGM,Sea,125.10,Rain,Critical,7693.65,20,2026-03-23,2026-05-03,
+TRK-787586,Tokyo → Singapore,Tokyo,Singapore,Delivered,1686.20,FedEx,Air,1986.60,Rain,Overnight,99330.00,25,2026-03-18,2026-03-22,2026-03-23
+TRK-295558,Rotterdam → Tokyo,Rotterdam,Tokyo,Delivered,325.95,CMA CGM,Sea,2229.10,Clear,Standard,76903.95,10,2026-03-05,2026-03-28,2026-03-29
+TRK-260663,Melbourne → Berlin,Melbourne,Berlin,Delayed,1290.53,FedEx,Air,829.70,Rain,Overnight,20742.50,25,2026-04-04,2026-04-06,
+TRK-753537,London → Los Angeles,London,Los Angeles,In Transit,2342.12,Hapag-Lloyd,Sea,3705.40,Clear,Critical,211207.80,5,2026-03-27,2026-05-04,
+TRK-428892,Melbourne → Tokyo,Melbourne,Tokyo,Delayed,1038.53,DHL,Air,1584.90,Storm,Express,19811.25,70,2026-03-15,2026-03-16,
+TRK-432469,Rotterdam → Sydney,Rotterdam,Sydney,Delivered,3286.10,DHL,Air,4398.20,Clear,Critical,109955.00,5,2026-01-27,2026-01-29,2026-01-30
+TRK-503481,Berlin → Mumbai,Berlin,Mumbai,Delayed,421.35,Hapag-Lloyd,Sea,702.20,Clear,Express,30545.70,5,2026-02-16,2026-03-17,
+TRK-458553,Rotterdam → Dubai,Rotterdam,Dubai,Delivered,1946.26,DHL,Air,4696.70,Clear,Express,58708.75,5,2026-01-18,2026-01-19,2026-01-21
+TRK-350892,Sydney → Chicago,Sydney,Chicago,Delivered,1044.45,FedEx,Air,3487.50,Extreme Heat,Standard,87187.50,35,2026-02-26,2026-02-28,2026-02-28
+TRK-954061,Melbourne → Berlin,Melbourne,Berlin,Delivered,1539.78,UPS,Air,4563.60,Rain,Standard,228180.00,25,2026-02-06,2026-02-10,2026-02-10
+TRK-869899,Melbourne → Paris,Melbourne,Paris,Delivered,1904.18,Hapag-Lloyd,Sea,3152.80,Clear,Express,184438.80,5,2026-02-10,2026-03-21,2026-03-20
+TRK-681962,Los Angeles → Chicago,Los Angeles,Chicago,Delivered,775.72,BlueDart,Rail,1782.10,Clear,Overnight,62373.50,10,2026-03-13,2026-03-27,2026-03-28
+TRK-500894,Dubai → Tokyo,Dubai,Tokyo,Delivered,2777.45,UPS,Air,3351.10,Clear,Critical,125666.25,5,2026-01-29,2026-02-01,2026-02-03
+TRK-146997,Tokyo → Berlin,Tokyo,Berlin,Delivered,800.73,Maersk,Sea,4641.10,Clear,Overnight,160117.95,10,2026-01-15,2026-02-07,2026-02-07
+TRK-879806,Mumbai → Berlin,Mumbai,Berlin,Delayed,1420.07,Hapag-Lloyd,Sea,2726.40,Storm,Critical,151315.20,95,2026-01-29,2026-03-07,
+TRK-287508,London → Melbourne,London,Melbourne,Delivered,1754.51,DHL,Air,4801.50,Rain,Standard,120037.50,25,2026-04-08,2026-04-10,2026-04-10
+TRK-240968,Mumbai → Dubai,Mumbai,Dubai,Delivered,971.43,FedEx,Rail,4509.80,Rain,Critical,101470.50,20,2026-03-11,2026-03-20,2026-03-21
+TRK-464359,Berlin → Sydney,Berlin,Sydney,Delivered,279.90,Maersk,Sea,796.00,Clear,Overnight,29850.00,10,2026-03-03,2026-03-28,2026-03-27
+TRK-305566,Toronto → Tokyo,Toronto,Tokyo,Delayed,1433.26,UPS,Air,2291.00,Extreme Heat,Standard,114550.00,35,2026-01-19,2026-01-23,
+TRK-686258,New York → Melbourne,New York,Melbourne,Delivered,1072.32,FedEx,Air,1214.80,Clear,Overnight,45555.00,10,2026-03-09,2026-03-12,2026-03-12
+TRK-444037,Sydney → Melbourne,Sydney,Melbourne,Delayed,369.83,Maersk,Road,991.90,Clear,Critical,26781.30,5,2026-04-08,2026-04-14,
+TRK-281697,London → Paris,London,Paris,Delivered,187.67,Hapag-Lloyd,Road,204.70,Clear,Standard,6448.05,10,2026-03-18,2026-03-25,2026-03-25
+TRK-102776,Singapore → Paris,Singapore,Paris,Delivered,846.17,Maersk,Sea,1667.90,Clear,Overnight,77557.35,10,2026-02-25,2026-03-28,2026-03-28
+TRK-561946,Los Angeles → Mumbai,Los Angeles,Mumbai,Delayed,1070.98,FedEx,Air,1612.40,Extreme Heat,Standard,80620.00,35,2026-03-29,2026-04-02,
+TRK-540077,Shanghai → Paris,Shanghai,Paris,Delivered,1673.58,DHL,Air,4311.60,Clear,Overnight,215580.00,10,2026-04-06,2026-04-10,2026-04-11
+TRK-947342,London → Sydney,London,Sydney,Delivered,2321.45,CMA CGM,Sea,4511.60,Clear,Critical,155650.20,5,2026-03-16,2026-04-08,2026-04-09
+TRK-623416,Toronto → Mumbai,Toronto,Mumbai,Delivered,1396.34,UPS,Air,2388.50,Clear,Standard,29856.25,10,2026-01-18,2026-01-19,2026-01-18
+TRK-843662,Berlin → London,Berlin,London,Delivered,554.75,FedEx,Rail,2086.90,Clear,Standard,41738.00,10,2026-02-24,2026-03-04,2026-03-04
+TRK-955033,Tokyo → Melbourne,Tokyo,Melbourne,Delivered,908.39,DHL,Air,856.90,Clear,Overnight,32133.75,10,2026-01-24,2026-01-27,2026-01-28
+TRK-133562,Los Angeles → Sydney,Los Angeles,Sydney,Delayed,860.55,CMA CGM,Sea,1765.40,Rain,Overnight,60906.30,25,2026-03-15,2026-04-07,
+TRK-591413,Sydney → Melbourne,Sydney,Melbourne,Delivered,432.33,DHL,Road,2656.30,Rain,Standard,23906.70,25,2026-04-05,2026-04-07,2026-04-08
+TRK-806219,Singapore → Rotterdam,Singapore,Rotterdam,Delayed,2175.95,UPS,Air,2499.70,Storm,Overnight,62492.50,75,2026-02-19,2026-02-21,
+TRK-814872,Paris → Melbourne,Paris,Melbourne,Delayed,1394.37,FedEx,Air,1269.30,Storm,Overnight,15866.25,75,2026-03-03,2026-03-04,
+TRK-740490,Chicago → Los Angeles,Chicago,Los Angeles,Delayed,693.02,DHL,Road,2405.70,Rain,Critical,75779.55,20,2026-02-24,2026-03-03,
+TRK-914176,Toronto → Mumbai,Toronto,Mumbai,Delivered,1756.83,UPS,Air,4558.90,Clear,Standard,170958.75,10,2026-02-09,2026-02-12,2026-02-14
+TRK-703270,Dubai → London,Dubai,London,Delivered,1332.24,DHL,Air,1830.10,Clear,Overnight,45752.50,10,2026-03-09,2026-03-11,2026-03-12
+TRK-804574,Rotterdam → Mumbai,Rotterdam,Mumbai,Delivered,1048.55,FedEx,Air,1944.30,Clear,Express,48607.50,5,2026-03-02,2026-03-04,2026-03-06
+TRK-542980,Berlin → Melbourne,Berlin,Melbourne,Delivered,2393.69,Hapag-Lloyd,Sea,4696.50,Clear,Express,169074.00,5,2026-01-26,2026-02-19,2026-02-20
+TRK-794122,Sydney → Shanghai,Sydney,Shanghai,Delivered,2068.17,FedEx,Air,2432.70,Clear,Express,30408.75,5,2026-03-09,2026-03-10,2026-03-10
+TRK-576203,Sydney → Toronto,Sydney,Toronto,Delivered,662.52,Maersk,Sea,2145.00,Clear,Standard,64350.00,10,2026-02-04,2026-02-24,2026-02-24
+TRK-199244,Paris → Mumbai,Paris,Mumbai,Delivered,720.23,DHL,Air,2048.90,Clear,Standard,51222.50,10,2026-01-20,2026-01-22,2026-01-24
+TRK-222410,Chicago → Sydney,Chicago,Sydney,Delivered,1294.68,DHL,Air,827.40,Rain,Express,20685.00,20,2026-01-25,2026-01-27,2026-01-26
+TRK-404936,Dubai → New York,Dubai,New York,Delivered,163.19,Hapag-Lloyd,Sea,446.90,Extreme Heat,Overnight,14747.70,60,2026-03-10,2026-04-01,2026-04-01
+TRK-183178,New York → Toronto,New York,Toronto,Delayed,1070.58,Hapag-Lloyd,Road,2476.60,Rain,Critical,22289.40,20,2026-01-23,2026-01-25,
+TRK-671785,Melbourne → Berlin,Melbourne,Berlin,Delivered,550.49,CMA CGM,Sea,1367.40,Clear,Critical,47175.30,5,2026-03-16,2026-04-08,2026-04-09
+TRK-860389,Paris → Sydney,Paris,Sydney,Delivered,2865.17,Hapag-Lloyd,Sea,4787.00,Rain,Overnight,244137.00,25,2026-02-02,2026-03-08,2026-03-09
+TRK-743121,Mumbai → New York,Mumbai,New York,Delayed,1949.04,UPS,Air,3308.90,Clear,Critical,124083.75,5,2026-02-04,2026-02-07,
+TRK-915374,Los Angeles → Dubai,Los Angeles,Dubai,Delivered,1227.21,Maersk,Sea,3380.50,Clear,Express,197759.25,5,2026-01-16,2026-02-24,2026-02-26
+TRK-705639,Dubai → Chicago,Dubai,Chicago,Delivered,3563.73,FedEx,Air,4069.50,Clear,Express,152606.25,5,2026-02-20,2026-02-23,2026-02-23
+TRK-545810,Toronto → Berlin,Toronto,Berlin,Delivered,2113.43,UPS,Air,3306.10,Rain,Express,82652.50,20,2026-03-16,2026-03-18,2026-03-20
+TRK-365926,Toronto → London,Toronto,London,Delivered,279.81,Maersk,Sea,1413.70,Clear,Standard,48772.65,10,2026-02-05,2026-02-28,2026-03-01
+TRK-905388,Mumbai → Melbourne,Mumbai,Melbourne,In Transit,1397.24,Maersk,Sea,2757.10,Extreme Heat,Critical,177832.95,55,2026-04-13,2026-05-26,
+TRK-419521,Sydney → Melbourne,Sydney,Melbourne,In Transit,281.94,UPS,Rail,276.10,Clear,Critical,5522.00,5,2026-04-07,2026-04-15,
+TRK-901058,Toronto → Rotterdam,Toronto,Rotterdam,Delayed,1241.92,DHL,Air,4044.50,Snow,Standard,101112.50,55,2026-01-23,2026-01-25,
+TRK-753441,New York → Singapore,New York,Singapore,Delivered,1072.25,FedEx,Air,537.90,Clear,Critical,6723.75,5,2026-02-06,2026-02-07,2026-02-09
+TRK-793401,Dubai → Toronto,Dubai,Toronto,In Transit,1940.21,Maersk,Sea,4580.70,Storm,Express,185518.35,95,2026-04-11,2026-05-08,
+TRK-999505,Melbourne → Sydney,Melbourne,Sydney,Delivered,2405.73,CMA CGM,Rail,4955.60,Clear,Express,136279.00,5,2026-03-25,2026-04-05,2026-04-05
+TRK-789199,New York → Melbourne,New York,Melbourne,Delayed,991.47,FedEx,Air,1404.70,Storm,Standard,17558.75,75,2026-04-10,2026-04-11,
+TRK-978066,Shanghai → Paris,Shanghai,Paris,Delivered,1305.48,DHL,Air,3119.50,Rain,Critical,38993.75,20,2026-02-22,2026-02-23,2026-02-24
+TRK-724401,Berlin → Dubai,Berlin,Dubai,In Transit,284.99,Hapag-Lloyd,Sea,729.00,Clear,Overnight,26244.00,10,2026-03-30,2026-04-23,
+TRK-162223,Melbourne → Paris,Melbourne,Paris,Delayed,1049.30,Hapag-Lloyd,Sea,1373.20,Rain,Overnight,88571.40,25,2026-01-29,2026-03-13,
+TRK-969251,Tokyo → Sydney,Tokyo,Sydney,Delivered,1154.50,Maersk,Sea,1699.60,Clear,Express,61185.60,5,2026-02-22,2026-03-18,2026-03-18
+TRK-859538,Shanghai → Toronto,Shanghai,Toronto,Delayed,370.61,Hapag-Lloyd,Sea,932.20,Clear,Express,54533.70,5,2026-02-27,2026-04-07,
+TRK-850646,London → Berlin,London,Berlin,Delayed,1411.57,FedEx,Air,2672.10,Extreme Heat,Critical,100203.75,30,2026-03-10,2026-03-13,
+TRK-390986,New York → Los Angeles,New York,Los Angeles,Delivered,1529.16,DHL,Air,1305.40,Clear,Express,65270.00,5,2026-03-26,2026-03-30,2026-03-29
+TRK-486287,Tokyo → Melbourne,Tokyo,Melbourne,In Transit,1368.87,CMA CGM,Sea,2786.00,Clear,Standard,175518.00,10,2026-03-10,2026-04-21,
+TRK-473582,Toronto → Singapore,Toronto,Singapore,Delayed,4236.96,DHL,Air,4729.90,Rain,Critical,177371.25,20,2026-02-26,2026-03-01,
+TRK-783081,Los Angeles → London,Los Angeles,London,Delivered,2386.62,UPS,Air,3224.00,Clear,Critical,161200.00,5,2026-03-20,2026-03-24,2026-03-23
+TRK-366158,Dubai → Melbourne,Dubai,Melbourne,Delayed,1603.89,UPS,Air,1845.00,Clear,Express,69187.50,5,2026-01-17,2026-01-20,
+TRK-628559,Singapore → Chicago,Singapore,Chicago,Delivered,2840.18,DHL,Air,3573.20,Clear,Express,133995.00,5,2026-01-25,2026-01-28,2026-01-29
+TRK-760427,Los Angeles → Chicago,Los Angeles,Chicago,Delivered,795.32,DHL,Road,3888.90,Clear,Overnight,52500.15,10,2026-03-18,2026-03-21,2026-03-23
+TRK-825745,Rotterdam → Paris,Rotterdam,Paris,Delivered,2373.42,FedEx,Air,2653.20,Clear,Express,33165.00,5,2026-02-10,2026-02-11,2026-02-13
+TRK-385520,New York → Melbourne,New York,Melbourne,In Transit,1347.74,Maersk,Sea,3029.80,Rain,Critical,99983.40,20,2026-03-28,2026-04-19,
+TRK-162972,Dubai → Shanghai,Dubai,Shanghai,Delivered,1733.68,DHL,Air,4305.60,Clear,Standard,161460.00,10,2026-02-26,2026-03-01,2026-03-02
+TRK-780106,Chicago → Melbourne,Chicago,Melbourne,Delayed,1392.98,Hapag-Lloyd,Sea,2646.30,Storm,Express,146869.65,95,2026-01-31,2026-03-09,
+TRK-900444,Tokyo → Sydney,Tokyo,Sydney,Delayed,2092.37,DHL,Air,3345.60,Rain,Standard,167280.00,25,2026-04-08,2026-04-12,
+TRK-148161,Sydney → London,Sydney,London,In Transit,774.90,Hapag-Lloyd,Sea,1281.80,Clear,Express,51912.90,5,2026-03-28,2026-04-24,
+TRK-957928,Berlin → London,Berlin,London,Delivered,1457.97,FedEx,Air,3947.70,Clear,Standard,98692.50,10,2026-04-11,2026-04-13,2026-04-14
+TRK-489343,Singapore → Shanghai,Singapore,Shanghai,Delivered,365.53,UPS,Rail,333.90,Clear,Critical,8347.50,5,2026-03-30,2026-04-09,2026-04-08
+TRK-901894,Mumbai → Berlin,Mumbai,Berlin,Delayed,1665.84,UPS,Air,4009.60,Snow,Critical,100240.00,50,2026-01-23,2026-01-25,
+TRK-424054,Paris → London,Paris,London,Delivered,1894.49,DHL,Air,1926.30,Clear,Critical,72236.25,5,2026-02-28,2026-03-03,2026-03-04
+TRK-145605,Shanghai → Tokyo,Shanghai,Tokyo,Delivered,2107.47,CMA CGM,Rail,4919.40,Clear,Critical,73791.00,5,2026-01-27,2026-02-02,2026-02-03
+TRK-488085,Sydney → Berlin,Sydney,Berlin,Delayed,732.24,Hapag-Lloyd,Sea,1584.00,Storm,Express,92664.00,95,2026-01-14,2026-02-22,
+TRK-570308,Singapore → Sydney,Singapore,Sydney,In Transit,162.99,CMA CGM,Sea,446.90,Clear,Critical,22121.55,5,2026-03-16,2026-04-18,
+TRK-655751,Chicago → Shanghai,Chicago,Shanghai,Delivered,1628.07,DHL,Air,1361.80,Clear,Express,68090.00,5,2026-02-05,2026-02-09,2026-02-10
+TRK-318256,Toronto → Los Angeles,Toronto,Los Angeles,Delivered,1138.06,Maersk,Road,2096.70,Clear,Standard,66046.05,10,2026-03-06,2026-03-13,2026-03-13
+TRK-324807,Rotterdam → Sydney,Rotterdam,Sydney,Delivered,1535.19,UPS,Air,1552.50,Rain,Overnight,77625.00,25,2026-02-03,2026-02-07,2026-02-08
+TRK-996900,New York → Chicago,New York,Chicago,Delivered,1188.01,FedEx,Air,1950.50,Clear,Express,24381.25,5,2026-02-06,2026-02-07,2026-02-06
+TRK-606913,Toronto → New York,Toronto,New York,Delivered,2848.13,UPS,Air,4111.70,Clear,Express,154188.75,5,2026-02-12,2026-02-15,2026-02-14
+TRK-591243,Melbourne → Sydney,Melbourne,Sydney,Delivered,2944.07,UPS,Air,4339.30,Clear,Critical,54241.25,5,2026-03-19,2026-03-20,2026-03-19
+TRK-694273,Tokyo → Melbourne,Tokyo,Melbourne,In Transit,3170.04,Hapag-Lloyd,Sea,4618.40,Clear,Critical,284031.60,5,2026-03-19,2026-04-29,
+TRK-911643,Melbourne → Los Angeles,Melbourne,Los Angeles,Delayed,2973.26,FedEx,Air,4762.00,Storm,Express,178575.00,70,2026-03-10,2026-03-13,
+TRK-961510,Tokyo → Singapore,Tokyo,Singapore,Delivered,1536.62,UPS,Road,1850.50,Clear,Critical,41636.25,5,2026-01-14,2026-01-19,2026-01-19
+TRK-442894,Los Angeles → New York,Los Angeles,New York,Delivered,1159.45,BlueDart,Rail,2894.50,Clear,Standard,94071.25,10,2026-03-16,2026-03-29,2026-03-29
+TRK-718088,Rotterdam → Tokyo,Rotterdam,Tokyo,Delivered,727.33,UPS,Air,2227.50,Rain,Standard,27843.75,25,2026-04-07,2026-04-08,2026-04-09
+TRK-679990,Tokyo → Sydney,Tokyo,Sydney,Delivered,1203.55,CMA CGM,Sea,3428.10,Rain,Standard,154264.50,25,2026-02-23,2026-03-25,2026-03-25
+TRK-358097,Toronto → Los Angeles,Toronto,Los Angeles,Delivered,736.16,Maersk,Road,3190.80,Clear,Standard,100510.20,10,2026-02-04,2026-02-11,2026-02-13
+TRK-785380,Berlin → Paris,Berlin,Paris,Delivered,1392.06,Hapag-Lloyd,Road,2031.00,Clear,Express,54837.00,5,2026-01-25,2026-01-31,2026-01-30
+TRK-639161,Sydney → Melbourne,Sydney,Melbourne,Delivered,1735.85,DHL,Rail,2523.20,Clear,Express,50464.00,5,2026-03-23,2026-03-31,2026-04-01
+TRK-922818,Sydney → Melbourne,Sydney,Melbourne,In Transit,1673.31,DHL,Rail,4492.50,Clear,Express,112312.50,5,2026-04-13,2026-04-23,
+TRK-802097,Melbourne → Paris,Melbourne,Paris,In Transit,717.57,Maersk,Sea,3172.70,Clear,Critical,133253.40,5,2026-03-26,2026-04-23,
+TRK-508269,Sydney → New York,Sydney,New York,Delivered,343.79,Hapag-Lloyd,Sea,2740.50,Clear,Standard,110990.25,10,2026-02-20,2026-03-19,2026-03-20
+TRK-234969,Chicago → New York,Chicago,New York,Delivered,2363.97,FedEx,Air,3646.20,Clear,Critical,45577.50,5,2026-02-08,2026-02-09,2026-02-10
+TRK-635710,Tokyo → Chicago,Tokyo,Chicago,Delivered,3937.64,FedEx,Air,4961.60,Rain,Critical,248080.00,20,2026-02-03,2026-02-07,2026-02-07
+TRK-649192,Chicago → Sydney,Chicago,Sydney,In Transit,1167.82,Hapag-Lloyd,Sea,3584.60,Storm,Critical,241960.50,95,2026-03-13,2026-04-27,
+TRK-735013,Dubai → Tokyo,Dubai,Tokyo,Delivered,2634.39,BlueDart,Road,4447.40,Rain,Critical,40026.60,20,2026-04-09,2026-04-11,2026-04-11
+TRK-962350,Toronto → Rotterdam,Toronto,Rotterdam,Delivered,1486.53,Hapag-Lloyd,Sea,3139.00,Clear,Standard,160089.00,10,2026-01-22,2026-02-25,2026-02-27
+TRK-712776,Chicago → Rotterdam,Chicago,Rotterdam,Delayed,2004.07,FedEx,Air,3642.60,Clear,Express,182130.00,5,2026-03-24,2026-03-28,
+TRK-589534,Toronto → Mumbai,Toronto,Mumbai,Delivered,411.15,Maersk,Sea,604.20,Rain,Overnight,40783.50,25,2026-01-17,2026-03-03,2026-03-05
+TRK-749058,Melbourne → Toronto,Melbourne,Toronto,Delivered,1116.30,FedEx,Air,846.60,Clear,Overnight,21165.00,10,2026-01-14,2026-01-16,2026-01-17
+TRK-363651,Toronto → Mumbai,Toronto,Mumbai,Delivered,330.87,CMA CGM,Sea,669.80,Rain,Overnight,33155.10,25,2026-02-03,2026-03-08,2026-03-10
+TRK-130685,Los Angeles → Shanghai,Los Angeles,Shanghai,Delivered,1909.13,FedEx,Air,2037.20,Rain,Express,50930.00,20,2026-03-25,2026-03-27,2026-03-27
+TRK-808963,Paris → Melbourne,Paris,Melbourne,Delayed,317.13,CMA CGM,Sea,328.50,Snow,Critical,15768.00,50,2026-03-05,2026-04-06,
+TRK-361982,Berlin → Dubai,Berlin,Dubai,Delivered,1537.71,UPS,Air,1103.00,Rain,Overnight,55150.00,25,2026-04-04,2026-04-08,2026-04-08
+TRK-514903,Berlin → Singapore,Berlin,Singapore,Delivered,1028.62,UPS,Air,2013.10,Clear,Standard,25163.75,10,2026-02-21,2026-02-22,2026-02-24
+TRK-336781,Shanghai → Dubai,Shanghai,Dubai,Delayed,440.60,Maersk,Road,706.20,Storm,Overnight,15889.50,75,2026-02-15,2026-02-20,
+TRK-557361,Berlin → Rotterdam,Berlin,Rotterdam,Delivered,2712.59,BlueDart,Road,4472.80,Clear,Overnight,140893.20,10,2026-01-24,2026-01-31,2026-01-31
+TRK-758226,Berlin → Shanghai,Berlin,Shanghai,Delivered,1038.48,FedEx,Air,2014.00,Clear,Standard,75525.00,10,2026-01-30,2026-02-02,2026-02-02
+TRK-740947,Mumbai → Toronto,Mumbai,Toronto,Delayed,1424.81,DHL,Air,3906.90,Clear,Critical,48836.25,5,2026-02-01,2026-02-02,
+TRK-537901,Toronto → Chicago,Toronto,Chicago,Delivered,1382.36,UPS,Air,2167.90,Rain,Standard,54197.50,25,2026-01-17,2026-01-19,2026-01-21
+TRK-859409,Sydney → Paris,Sydney,Paris,Delivered,1949.40,UPS,Air,3401.50,Rain,Overnight,85037.50,25,2026-03-24,2026-03-26,2026-03-25
+TRK-139251,Los Angeles → Dubai,Los Angeles,Dubai,Delayed,2223.32,Maersk,Sea,3016.80,Clear,Express,162907.20,5,2026-03-09,2026-04-14,
+TRK-592749,Paris → Tokyo,Paris,Tokyo,Delivered,1097.54,Hapag-Lloyd,Sea,2521.60,Clear,Critical,90777.60,5,2026-03-15,2026-04-08,2026-04-08
+TRK-378215,London → Rotterdam,London,Rotterdam,Delivered,1181.75,DHL,Road,2618.30,Rain,Critical,82476.45,20,2026-01-19,2026-01-26,2026-01-25
+TRK-584263,Los Angeles → Chicago,Los Angeles,Chicago,Delivered,850.57,FedEx,Road,2259.60,Clear,Standard,30504.60,10,2026-02-07,2026-02-10,2026-02-12
+TRK-614269,Toronto → Paris,Toronto,Paris,Delivered,761.94,Maersk,Sea,2901.80,Clear,Standard,91406.70,10,2026-01-26,2026-02-16,2026-02-15
+TRK-238784,Singapore → Melbourne,Singapore,Melbourne,Delivered,1113.20,UPS,Air,2101.70,Clear,Overnight,52542.50,10,2026-02-21,2026-02-23,2026-02-25
+TRK-533937,Los Angeles → Shanghai,Los Angeles,Shanghai,Delivered,539.40,Maersk,Sea,3031.00,Rain,Critical,109116.00,20,2026-02-26,2026-03-22,2026-03-21
+TRK-939083,Rotterdam → Los Angeles,Rotterdam,Los Angeles,Delivered,643.20,CMA CGM,Sea,1568.40,Clear,Overnight,63520.20,10,2026-02-08,2026-03-07,2026-03-09
+TRK-668278,Mumbai → Sydney,Mumbai,Sydney,Delayed,3259.73,CMA CGM,Sea,4630.70,Snow,Overnight,187543.35,55,2026-01-18,2026-02-14,
+TRK-586429,Rotterdam → Los Angeles,Rotterdam,Los Angeles,Delivered,882.39,DHL,Air,676.30,Clear,Critical,8453.75,5,2026-03-23,2026-03-24,2026-03-23
+TRK-965492,Rotterdam → Melbourne,Rotterdam,Melbourne,In Transit,1280.76,CMA CGM,Sea,2544.50,Clear,Critical,83968.50,5,2026-04-11,2026-05-03,
+TRK-773683,Melbourne → Chicago,Melbourne,Chicago,Delayed,365.79,CMA CGM,Sea,2219.60,Clear,Standard,103211.40,10,2026-03-14,2026-04-14,
+TRK-543027,Melbourne → Shanghai,Melbourne,Shanghai,Delivered,710.81,DHL,Air,428.60,Clear,Standard,5357.50,10,2026-01-24,2026-01-25,2026-01-26
+TRK-420353,Melbourne → London,Melbourne,London,Delayed,4044.02,FedEx,Air,4498.10,Clear,Overnight,112452.50,10,2026-01-19,2026-01-21,
+TRK-928156,Sydney → London,Sydney,London,Delivered,2186.21,UPS,Air,2527.30,Clear,Critical,63182.50,5,2026-04-01,2026-04-03,2026-04-02
+TRK-702344,Los Angeles → Toronto,Los Angeles,Toronto,Delivered,1376.97,UPS,Road,2997.20,Clear,Standard,53949.60,10,2026-02-28,2026-03-04,2026-03-04
+TRK-819975,Singapore → Dubai,Singapore,Dubai,In Transit,903.93,UPS,Air,386.10,Clear,Critical,9652.50,5,2026-04-13,2026-04-15,
+TRK-146653,Melbourne → Sydney,Melbourne,Sydney,Delayed,1427.73,FedEx,Air,1757.90,Clear,Express,43947.50,5,2026-04-12,2026-04-14,
+TRK-980624,Melbourne → Mumbai,Melbourne,Mumbai,In Transit,1449.29,Maersk,Sea,2014.60,Rain,Critical,84613.20,20,2026-04-12,2026-05-10,
+TRK-581957,Paris → Los Angeles,Paris,Los Angeles,Delayed,2302.59,UPS,Air,3860.90,Snow,Overnight,96522.50,55,2026-02-02,2026-02-04,
+TRK-642110,Rotterdam → Shanghai,Rotterdam,Shanghai,Delayed,745.65,Hapag-Lloyd,Sea,3863.30,Storm,Standard,133283.85,100,2026-01-22,2026-02-14,
+TRK-849748,Sydney → Melbourne,Sydney,Melbourne,Delayed,1641.98,FedEx,Air,2576.40,Clear,Overnight,64410.00,10,2026-01-19,2026-01-21,
+TRK-851919,Melbourne → Sydney,Melbourne,Sydney,Delivered,894.09,BlueDart,Rail,1122.10,Clear,Overnight,14026.25,10,2026-01-22,2026-01-27,2026-01-26
+TRK-564749,Sydney → Dubai,Sydney,Dubai,Delivered,88.05,Maersk,Sea,156.30,Clear,Standard,9612.45,10,2026-02-12,2026-03-25,2026-03-24
+TRK-466096,New York → Toronto,New York,Toronto,Delivered,397.02,BlueDart,Road,1242.80,Clear,Critical,22370.40,5,2026-03-28,2026-04-01,2026-04-01
+TRK-471900,New York → Toronto,New York,Toronto,Delivered,2093.28,DHL,Air,3329.90,Rain,Overnight,83247.50,25,2026-01-30,2026-02-01,2026-01-31
+TRK-768047,Berlin → Sydney,Berlin,Sydney,Delivered,512.26,DHL,Air,41.50,Clear,Standard,1037.50,10,2026-02-20,2026-02-22,2026-02-21
+TRK-218859,Berlin → New York,Berlin,New York,Delivered,1750.92,FedEx,Air,4370.30,Clear,Express,218515.00,5,2026-03-17,2026-03-21,2026-03-22
+TRK-311192,Paris → Rotterdam,Paris,Rotterdam,In Transit,904.72,FedEx,Air,2477.90,Clear,Standard,92921.25,10,2026-04-12,2026-04-15,
+TRK-434329,Sydney → Rotterdam,Sydney,Rotterdam,Delivered,1639.53,DHL,Air,1784.70,Rain,Critical,44617.50,20,2026-02-08,2026-02-10,2026-02-10
+TRK-541027,Tokyo → Melbourne,Tokyo,Melbourne,Delayed,422.09,Hapag-Lloyd,Sea,922.90,Clear,Critical,38761.80,5,2026-03-05,2026-04-02,
+TRK-431931,Dubai → Melbourne,Dubai,Melbourne,Delivered,136.64,Hapag-Lloyd,Sea,367.50,Clear,Standard,22601.25,10,2026-02-19,2026-04-01,2026-04-03
+TRK-591701,Melbourne → Shanghai,Melbourne,Shanghai,Delivered,211.23,Maersk,Sea,614.50,Clear,Overnight,22122.00,10,2026-02-04,2026-02-28,2026-02-27
+TRK-285506,Paris → Shanghai,Paris,Shanghai,Delivered,1828.13,Maersk,Sea,2606.40,Clear,Overnight,140745.60,10,2026-01-25,2026-03-02,2026-03-02
+TRK-600633,Chicago → Rotterdam,Chicago,Rotterdam,Delivered,1206.74,CMA CGM,Sea,2237.80,Clear,Overnight,73847.40,10,2026-03-17,2026-04-08,2026-04-07
+TRK-986771,Singapore → Los Angeles,Singapore,Los Angeles,Delivered,1557.39,Hapag-Lloyd,Sea,2789.50,Rain,Critical,112974.75,20,2026-01-15,2026-02-11,2026-02-10
+TRK-498809,Mumbai → Shanghai,Mumbai,Shanghai,Delivered,940.16,UPS,Road,3682.60,Clear,Standard,99430.20,10,2026-02-28,2026-03-06,2026-03-06
+TRK-328467,Singapore → Toronto,Singapore,Toronto,Delivered,240.24,Hapag-Lloyd,Sea,563.40,Rain,Standard,35494.20,25,2026-02-27,2026-04-10,2026-04-10
+TRK-413698,Melbourne → Tokyo,Melbourne,Tokyo,Delivered,739.17,FedEx,Air,1175.30,Clear,Standard,14691.25,10,2026-01-15,2026-01-16,2026-01-18
+TRK-865024,Rotterdam → Sydney,Rotterdam,Sydney,In Transit,545.22,Maersk,Sea,2106.40,Rain,Critical,85309.20,20,2026-04-13,2026-05-10,
+TRK-809126,London → Los Angeles,London,Los Angeles,In Transit,566.79,Hapag-Lloyd,Sea,2308.10,Rain,Standard,152334.60,25,2026-03-10,2026-04-23,
+TRK-578995,Los Angeles → Tokyo,Los Angeles,Tokyo,Delivered,1949.49,Maersk,Sea,3319.00,Rain,Critical,194161.50,20,2026-01-17,2026-02-25,2026-02-26
+TRK-473518,Tokyo → Chicago,Tokyo,Chicago,In Transit,342.38,CMA CGM,Sea,865.50,Clear,Standard,37649.25,10,2026-04-02,2026-05-01,
+TRK-247767,New York → Los Angeles,New York,Los Angeles,Delivered,1117.28,FedEx,Rail,2230.70,Clear,Critical,33460.50,5,2026-01-30,2026-02-05,2026-02-06
+TRK-249344,Los Angeles → Chicago,Los Angeles,Chicago,Delivered,1097.24,CMA CGM,Road,3123.30,Clear,Standard,98383.95,10,2026-02-20,2026-02-27,2026-02-26
+TRK-691622,Melbourne → London,Melbourne,London,Delayed,1223.49,DHL,Air,3030.70,Storm,Standard,113651.25,75,2026-02-07,2026-02-10,
+TRK-135131,Berlin → Paris,Berlin,Paris,Delivered,2321.65,DHL,Rail,4341.60,Clear,Critical,119394.00,5,2026-02-16,2026-02-27,2026-02-28
+TRK-975002,Sydney → Dubai,Sydney,Dubai,Delayed,975.02,DHL,Air,682.10,Storm,Express,34105.00,70,2026-03-07,2026-03-11,
+TRK-552233,Dubai → Melbourne,Dubai,Melbourne,Delivered,710.16,Maersk,Sea,1113.30,Clear,Critical,33399.00,5,2026-02-24,2026-03-16,2026-03-15
+TRK-455374,Chicago → New York,Chicago,New York,Delivered,2780.27,FedEx,Air,4352.90,Extreme Heat,Overnight,217645.00,35,2026-04-08,2026-04-12,2026-04-14
+TRK-986728,Rotterdam → Berlin,Rotterdam,Berlin,Delayed,1335.59,FedEx,Air,1293.40,Storm,Critical,32335.00,70,2026-03-05,2026-03-07,
+TRK-335598,Shanghai → Singapore,Shanghai,Singapore,Delivered,512.79,DHL,Road,1748.90,Clear,Critical,39350.25,5,2026-01-14,2026-01-19,2026-01-18
+TRK-984845,New York → Melbourne,New York,Melbourne,Delayed,394.10,Hapag-Lloyd,Sea,695.80,Storm,Standard,39660.60,100,2026-01-24,2026-03-03,
+TRK-536316,New York → Chicago,New York,Chicago,Delayed,3881.69,UPS,Air,4754.70,Storm,Critical,118867.50,70,2026-02-28,2026-03-02,
+TRK-531393,Paris → Rotterdam,Paris,Rotterdam,Delivered,1916.66,UPS,Air,1988.90,Rain,Express,24861.25,20,2026-01-23,2026-01-24,2026-01-26
+TRK-694347,Mumbai → Singapore,Mumbai,Singapore,Delayed,1073.70,UPS,Road,1360.70,Storm,Overnight,36738.90,75,2026-03-28,2026-04-03,
+TRK-415680,Rotterdam → Toronto,Rotterdam,Toronto,In Transit,2607.38,CMA CGM,Sea,3516.20,Clear,Overnight,105486.00,10,2026-03-28,2026-04-17,
+TRK-873945,Tokyo → Mumbai,Tokyo,Mumbai,Delivered,745.61,UPS,Road,1844.50,Clear,Critical,33201.00,5,2026-02-11,2026-02-15,2026-02-14
+TRK-806315,Paris → Shanghai,Paris,Shanghai,Delivered,959.97,Hapag-Lloyd,Sea,2253.80,Clear,Overnight,104801.70,10,2026-01-17,2026-02-17,2026-02-18
+TRK-987437,Shanghai → New York,Shanghai,New York,Delivered,2930.70,UPS,Air,3495.30,Clear,Express,131073.75,5,2026-02-26,2026-03-01,2026-03-01
+TRK-411256,Sydney → Melbourne,Sydney,Melbourne,Delayed,1891.61,DHL,Air,2665.30,Extreme Heat,Critical,133265.00,30,2026-01-31,2026-02-04,
+TRK-828186,Singapore → Rotterdam,Singapore,Rotterdam,Delivered,1832.46,CMA CGM,Sea,2347.00,Clear,Critical,116176.50,5,2026-03-03,2026-04-05,2026-04-04
+TRK-156982,Berlin → New York,Berlin,New York,Delivered,4020.02,DHL,Air,4999.80,Clear,Critical,124995.00,5,2026-02-21,2026-02-23,2026-02-22
+TRK-344724,Paris → Los Angeles,Paris,Los Angeles,Delivered,1033.48,UPS,Air,2734.90,Extreme Heat,Standard,68372.50,35,2026-03-30,2026-04-01,2026-04-01
+TRK-376958,Paris → Shanghai,Paris,Shanghai,Delivered,3438.62,FedEx,Air,4339.60,Clear,Critical,216980.00,5,2026-02-16,2026-02-20,2026-02-22
+TRK-398897,Chicago → Sydney,Chicago,Sydney,Delivered,1828.97,UPS,Air,4550.00,Extreme Heat,Standard,227500.00,35,2026-04-06,2026-04-10,2026-04-09
+TRK-925917,Melbourne → Tokyo,Melbourne,Tokyo,In Transit,929.24,CMA CGM,Sea,2144.90,Clear,Express,77216.40,5,2026-04-06,2026-04-30,
+TRK-431229,Melbourne → London,Melbourne,London,Delayed,2430.36,Maersk,Sea,3342.40,Clear,Express,150408.00,5,2026-02-18,2026-03-20,
+TRK-619624,Shanghai → Paris,Shanghai,Paris,Delivered,1327.25,CMA CGM,Sea,4100.80,Clear,Standard,178384.80,10,2026-02-17,2026-03-18,2026-03-19
+TRK-240310,Shanghai → Singapore,Shanghai,Singapore,Delivered,3013.74,FedEx,Air,4386.00,Clear,Overnight,54825.00,10,2026-03-24,2026-03-25,2026-03-27
+TRK-360605,Dubai → Berlin,Dubai,Berlin,Delivered,1667.87,CMA CGM,Sea,3411.30,Clear,Express,204678.00,5,2026-02-09,2026-03-21,2026-03-23
+TRK-202451,Chicago → Paris,Chicago,Paris,Delivered,678.24,Maersk,Sea,1511.40,Clear,Express,49876.20,5,2026-02-06,2026-02-28,2026-03-01
+TRK-460843,Melbourne → Sydney,Melbourne,Sydney,Delivered,1354.95,UPS,Air,2284.90,Clear,Overnight,57122.50,10,2026-03-15,2026-03-17,2026-03-16
+TRK-661453,Melbourne → Sydney,Melbourne,Sydney,Delayed,1838.79,FedEx,Air,3535.00,Rain,Critical,88375.00,20,2026-04-05,2026-04-07,
+TRK-275594,Mumbai → London,Mumbai,London,In Transit,778.95,Hapag-Lloyd,Sea,2188.20,Clear,Standard,128009.70,10,2026-03-12,2026-04-20,
+TRK-691385,London → Berlin,London,Berlin,Delivered,1680.09,DHL,Air,2001.60,Rain,Overnight,50040.00,25,2026-03-11,2026-03-13,2026-03-15
+TRK-656908,Sydney → Melbourne,Sydney,Melbourne,Delivered,1059.45,FedEx,Road,3617.50,Clear,Standard,65115.00,10,2026-01-26,2026-01-30,2026-02-01
+TRK-612307,Toronto → Los Angeles,Toronto,Los Angeles,Delivered,2134.43,BlueDart,Road,4586.80,Clear,Express,123843.60,5,2026-02-08,2026-02-14,2026-02-15
+TRK-519319,Rotterdam → Melbourne,Rotterdam,Melbourne,Delivered,1470.06,DHL,Air,2119.10,Extreme Heat,Express,26488.75,30,2026-01-29,2026-01-30,2026-02-01
+TRK-640547,Singapore → Berlin,Singapore,Berlin,Delivered,160.60,CMA CGM,Sea,468.60,Rain,Standard,16869.60,25,2026-02-21,2026-03-17,2026-03-17
+TRK-797257,Toronto → Los Angeles,Toronto,Los Angeles,Delivered,1235.30,Hapag-Lloyd,Road,4164.30,Extreme Heat,Express,74957.40,30,2026-02-23,2026-02-27,2026-02-27
+TRK-847561,Los Angeles → Shanghai,Los Angeles,Shanghai,Delivered,1630.41,FedEx,Air,2754.70,Clear,Express,68867.50,5,2026-02-12,2026-02-14,2026-02-13
+TRK-580820,Berlin → Melbourne,Berlin,Melbourne,In Transit,608.31,Maersk,Sea,1472.20,Clear,Express,92748.60,5,2026-04-10,2026-05-22,
+TRK-475059,Shanghai → Chicago,Shanghai,Chicago,Delivered,530.12,DHL,Air,64.10,Clear,Standard,2403.75,10,2026-01-27,2026-01-30,2026-01-31
+TRK-884688,Sydney → Toronto,Sydney,Toronto,In Transit,1714.80,Hapag-Lloyd,Sea,3251.10,Storm,Critical,190189.35,95,2026-03-30,2026-05-08,
+TRK-144668,New York → Sydney,New York,Sydney,Delivered,1854.56,DHL,Air,4484.20,Clear,Standard,224210.00,10,2026-01-24,2026-01-28,2026-01-28
+TRK-884176,Singapore → Berlin,Singapore,Berlin,Delivered,1189.66,DHL,Air,2949.70,Rain,Standard,36871.25,25,2026-04-08,2026-04-09,2026-04-10
+TRK-336361,Dubai → Mumbai,Dubai,Mumbai,Delivered,1185.21,FedEx,Air,2444.30,Clear,Overnight,61107.50,10,2026-03-08,2026-03-10,2026-03-11
+TRK-461621,Berlin → Paris,Berlin,Paris,Delayed,160.29,DHL,Rail,55.50,Snow,Express,1248.75,50,2026-03-17,2026-03-26,
+TRK-488454,New York → Berlin,New York,Berlin,Delivered,1944.78,CMA CGM,Sea,4718.70,Clear,Express,297278.10,5,2026-01-24,2026-03-07,2026-03-09
+TRK-666416,Dubai → Melbourne,Dubai,Melbourne,Delivered,3888.83,DHL,Air,4981.40,Extreme Heat,Express,186802.50,30,2026-01-30,2026-02-02,2026-02-03
+TRK-541747,Sydney → Melbourne,Sydney,Melbourne,Delivered,783.11,Maersk,Rail,2204.00,Clear,Express,27550.00,5,2026-03-23,2026-03-28,2026-03-28
+TRK-282425,Mumbai → Melbourne,Mumbai,Melbourne,Delayed,3125.73,Maersk,Sea,4320.00,Storm,Express,220320.00,95,2026-01-29,2026-03-04,
+TRK-737139,Paris → Rotterdam,Paris,Rotterdam,Delayed,1216.79,Maersk,Rail,2860.60,Snow,Overnight,78666.50,55,2026-02-04,2026-02-15,
+TRK-999004,London → Sydney,London,Sydney,Delivered,3280.29,UPS,Air,4604.00,Clear,Express,115100.00,5,2026-04-09,2026-04-11,2026-04-13
+TRK-701061,Los Angeles → Berlin,Los Angeles,Berlin,Delivered,1279.56,Hapag-Lloyd,Sea,2838.90,Rain,Overnight,89425.35,25,2026-02-25,2026-03-18,2026-03-18
+TRK-332491,Shanghai → Tokyo,Shanghai,Tokyo,Delayed,217.42,CMA CGM,Road,385.30,Storm,Express,5201.55,70,2026-03-23,2026-03-26,
+TRK-855716,Melbourne → New York,Melbourne,New York,Delivered,660.19,Maersk,Sea,1681.70,Extreme Heat,Overnight,52973.55,60,2026-02-16,2026-03-09,2026-03-09
+TRK-310240,Sydney → New York,Sydney,New York,Delayed,1813.40,FedEx,Air,1920.40,Storm,Express,24005.00,70,2026-03-02,2026-03-03,
+TRK-193525,Singapore → Dubai,Singapore,Dubai,Delivered,140.35,DHL,Road,227.20,Clear,Standard,2044.80,10,2026-02-22,2026-02-24,2026-02-26
+TRK-939900,Singapore → Sydney,Singapore,Sydney,Delayed,1740.96,UPS,Air,4765.00,Clear,Overnight,178687.50,10,2026-01-28,2026-01-31,
+TRK-772058,Chicago → New York,Chicago,New York,Delayed,2077.38,FedEx,Air,3248.30,Clear,Critical,162415.00,5,2026-03-27,2026-03-31,
+TRK-783996,Sydney → Shanghai,Sydney,Shanghai,Delivered,1655.58,UPS,Air,4663.60,Clear,Critical,233180.00,5,2026-03-20,2026-03-24,2026-03-24
+TRK-114389,Mumbai → London,Mumbai,London,Delivered,1446.74,Maersk,Sea,4767.70,Rain,Critical,157334.10,20,2026-01-14,2026-02-05,2026-02-05
+TRK-119052,Paris → Shanghai,Paris,Shanghai,Delivered,2985.48,CMA CGM,Sea,4014.50,Clear,Express,204739.50,5,2026-02-17,2026-03-23,2026-03-23
+TRK-778836,Tokyo → Berlin,Tokyo,Berlin,In Transit,735.42,Maersk,Sea,2491.80,Clear,Overnight,130819.50,10,2026-04-03,2026-05-08,
+TRK-796034,Sydney → Melbourne,Sydney,Melbourne,Delivered,1520.15,Maersk,Road,4659.30,Clear,Overnight,104834.25,10,2026-01-15,2026-01-20,2026-01-20
+TRK-824797,Mumbai → Shanghai,Mumbai,Shanghai,Delayed,389.64,Maersk,Road,624.10,Storm,Standard,11233.80,75,2026-03-19,2026-03-23,
+TRK-609431,Singapore → Los Angeles,Singapore,Los Angeles,Delivered,2184.08,DHL,Air,4649.40,Clear,Overnight,116235.00,10,2026-03-27,2026-03-29,2026-03-28
+TRK-101453,Sydney → Berlin,Sydney,Berlin,Delivered,3562.88,FedEx,Air,4721.50,Clear,Critical,118037.50,5,2026-03-11,2026-03-13,2026-03-13
+TRK-996610,Sydney → Dubai,Sydney,Dubai,In Transit,107.45,CMA CGM,Sea,207.80,Clear,Express,10286.10,5,2026-04-13,2026-05-16,
+TRK-547763,London → Toronto,London,Toronto,Delivered,1181.40,Hapag-Lloyd,Sea,3428.60,Clear,Express,123429.60,5,2026-02-21,2026-03-17,2026-03-16
+TRK-218854,Berlin → Dubai,Berlin,Dubai,Delivered,2455.46,Maersk,Sea,3928.60,Clear,Critical,141429.60,5,2026-03-03,2026-03-27,2026-03-27
+TRK-755557,Sydney → Berlin,Sydney,Berlin,Delayed,3860.63,FedEx,Air,4156.30,Storm,Overnight,155861.25,75,2026-04-11,2026-04-14,
+TRK-783131,Melbourne → Toronto,Melbourne,Toronto,Delivered,778.33,UPS,Air,1640.60,Clear,Standard,82030.00,10,2026-02-07,2026-02-11,2026-02-11
+TRK-316451,Shanghai → Melbourne,Shanghai,Melbourne,Delivered,1440.74,UPS,Air,4453.60,Clear,Express,55670.00,5,2026-02-16,2026-02-17,2026-02-19
+TRK-503715,London → Paris,London,Paris,Delayed,897.82,FedEx,Road,1105.90,Storm,Overnight,14929.65,75,2026-04-04,2026-04-07,
+TRK-825880,Los Angeles → Toronto,Los Angeles,Toronto,Delayed,805.02,FedEx,Road,1505.30,Storm,Critical,20321.55,70,2026-01-15,2026-01-18,
+TRK-852712,Sydney → Los Angeles,Sydney,Los Angeles,Delayed,3786.71,FedEx,Air,4371.30,Storm,Express,54641.25,70,2026-02-10,2026-02-11,
+TRK-703044,Chicago → New York,Chicago,New York,Delivered,178.71,Maersk,Road,63.60,Clear,Critical,1144.80,5,2026-03-27,2026-03-31,2026-04-02
+TRK-857603,Melbourne → Toronto,Melbourne,Toronto,In Transit,3097.55,Hapag-Lloyd,Sea,4596.40,Rain,Critical,268889.40,20,2026-04-06,2026-05-15,
+TRK-782157,Dubai → New York,Dubai,New York,Delayed,1326.54,Hapag-Lloyd,Sea,1880.10,Storm,Overnight,84604.50,100,2026-02-01,2026-03-03,
+TRK-820095,Sydney → Shanghai,Sydney,Shanghai,Delayed,586.23,DHL,Air,417.00,Storm,Standard,20850.00,75,2026-03-08,2026-03-12,
+TRK-607364,Los Angeles → Chicago,Los Angeles,Chicago,Delivered,872.58,CMA CGM,Rail,2027.20,Clear,Overnight,30408.00,10,2026-01-15,2026-01-21,2026-01-20
+TRK-592799,Rotterdam → Melbourne,Rotterdam,Melbourne,Delivered,2810.84,UPS,Air,4346.80,Rain,Express,163005.00,20,2026-03-19,2026-03-22,2026-03-23
+TRK-631203,Shanghai → Singapore,Shanghai,Singapore,Delivered,949.04,CMA CGM,Road,2534.30,Rain,Critical,79830.45,20,2026-03-14,2026-03-21,2026-03-20
+TRK-121881,Shanghai → New York,Shanghai,New York,In Transit,569.60,CMA CGM,Sea,1027.30,Storm,Critical,46228.50,95,2026-03-30,2026-04-29,
+TRK-294415,Mumbai → Toronto,Mumbai,Toronto,In Transit,1238.34,Hapag-Lloyd,Sea,4857.20,Clear,Express,262288.80,5,2026-03-15,2026-04-20,
+TRK-658943,Los Angeles → Sydney,Los Angeles,Sydney,Delayed,1602.36,FedEx,Air,4647.20,Clear,Express,174270.00,5,2026-02-03,2026-02-06,
+TRK-953544,Los Angeles → Sydney,Los Angeles,Sydney,Delivered,1554.93,FedEx,Air,1352.90,Clear,Overnight,67645.00,10,2026-03-19,2026-03-23,2026-03-23
+TRK-321800,Chicago → New York,Chicago,New York,Delayed,2597.79,CMA CGM,Road,4067.90,Storm,Critical,73222.20,70,2026-01-28,2026-02-01,
+TRK-630392,Toronto → Sydney,Toronto,Sydney,Delivered,2371.88,FedEx,Air,2973.90,Clear,Express,148695.00,5,2026-03-29,2026-04-02,2026-04-03
+TRK-560194,Melbourne → Berlin,Melbourne,Berlin,Delivered,1326.86,Maersk,Sea,3955.10,Clear,Standard,172046.85,10,2026-01-14,2026-02-12,2026-02-13
+TRK-503968,Sydney → Melbourne,Sydney,Melbourne,Delivered,1497.47,CMA CGM,Road,2414.30,Clear,Critical,21728.70,5,2026-02-20,2026-02-22,2026-02-23
+TRK-172257,London → Sydney,London,Sydney,Delayed,1004.07,CMA CGM,Sea,3058.50,Snow,Express,137632.50,50,2026-02-11,2026-03-13,
+TRK-990309,Paris → Toronto,Paris,Toronto,Delivered,379.08,CMA CGM,Sea,1697.20,Clear,Critical,96740.40,5,2026-01-24,2026-03-03,2026-03-04
+TRK-946341,Berlin → Rotterdam,Berlin,Rotterdam,Delivered,1534.23,Maersk,Road,2753.70,Clear,Express,61958.25,5,2026-03-17,2026-03-22,2026-03-24
+TRK-754777,Mumbai → New York,Mumbai,New York,In Transit,1300.06,UPS,Air,3955.80,Clear,Standard,197790.00,10,2026-04-13,2026-04-17,
+TRK-649379,Berlin → Melbourne,Berlin,Melbourne,Delayed,2329.97,Hapag-Lloyd,Sea,4860.80,Storm,Overnight,320812.80,100,2026-01-26,2026-03-11,
+TRK-647567,Toronto → Berlin,Toronto,Berlin,Delayed,601.15,UPS,Air,292.90,Extreme Heat,Standard,10983.75,35,2026-01-31,2026-02-03,
+TRK-676891,Mumbai → Melbourne,Mumbai,Melbourne,Delivered,1950.40,UPS,Air,3413.20,Clear,Standard,170660.00,10,2026-02-15,2026-02-19,2026-02-18
+TRK-128279,Chicago → Los Angeles,Chicago,Los Angeles,Delivered,507.00,UPS,Rail,1832.90,Rain,Overnight,45822.50,25,2026-03-10,2026-03-20,2026-03-19
+TRK-720656,Mumbai → Chicago,Mumbai,Chicago,Delivered,2426.64,CMA CGM,Sea,4790.30,Clear,Express,323345.25,5,2026-01-20,2026-03-06,2026-03-05
+TRK-610465,Shanghai → London,Shanghai,London,Delivered,264.14,CMA CGM,Sea,533.30,Clear,Express,16798.95,5,2026-03-05,2026-03-26,2026-03-27
+TRK-464517,Los Angeles → Tokyo,Los Angeles,Tokyo,Delivered,3225.90,Maersk,Sea,4996.30,Clear,Critical,314766.90,5,2026-01-14,2026-02-25,2026-02-25
+TRK-210681,London → Sydney,London,Sydney,Delivered,1090.75,CMA CGM,Sea,2291.50,Extreme Heat,Standard,82494.00,60,2026-03-16,2026-04-09,2026-04-11
+TRK-491940,Mumbai → Sydney,Mumbai,Sydney,In Transit,1097.40,Hapag-Lloyd,Sea,1646.40,Snow,Overnight,101253.60,55,2026-03-26,2026-05-06,
+TRK-173099,Mumbai → Paris,Mumbai,Paris,Delayed,961.22,FedEx,Air,2596.20,Rain,Standard,32452.50,25,2026-02-07,2026-02-08,
+TRK-174919,Los Angeles → Melbourne,Los Angeles,Melbourne,Delayed,578.58,CMA CGM,Sea,1335.20,Snow,Express,48067.20,50,2026-02-08,2026-03-04,
+TRK-643481,Melbourne → Shanghai,Melbourne,Shanghai,In Transit,2814.72,Hapag-Lloyd,Sea,4770.70,Clear,Critical,314866.20,5,2026-03-16,2026-04-29,
+TRK-361466,Melbourne → Dubai,Melbourne,Dubai,Delayed,2214.74,Maersk,Sea,4584.70,Storm,Standard,144418.05,100,2026-03-19,2026-04-09,
+TRK-938690,New York → Singapore,New York,Singapore,In Transit,646.25,Hapag-Lloyd,Sea,4379.90,Rain,Standard,269363.85,25,2026-03-20,2026-04-30,
+TRK-689172,Tokyo → Paris,Tokyo,Paris,Delivered,129.43,Hapag-Lloyd,Sea,388.40,Clear,Standard,15147.60,10,2026-03-01,2026-03-27,2026-03-26
+TRK-643312,Toronto → Rotterdam,Toronto,Rotterdam,Delivered,665.28,CMA CGM,Sea,3283.40,Rain,Critical,172378.50,20,2026-01-26,2026-03-02,2026-03-02
+TRK-346178,Sydney → Melbourne,Sydney,Melbourne,Delivered,2049.44,DHL,Road,3592.50,Rain,Overnight,32332.50,25,2026-02-17,2026-02-19,2026-02-21
+TRK-995407,Tokyo → Melbourne,Tokyo,Melbourne,Delivered,263.84,Maersk,Sea,958.80,Clear,Overnight,35955.00,10,2026-02-24,2026-03-21,2026-03-23
+TRK-714883,London → Paris,London,Paris,Delivered,2272.33,Maersk,Rail,4929.10,Clear,Standard,98582.00,10,2026-01-26,2026-02-03,2026-02-04
+TRK-176502,Dubai → Melbourne,Dubai,Melbourne,Delayed,1706.55,DHL,Air,1504.70,Storm,Overnight,56426.25,75,2026-04-07,2026-04-10,
+TRK-714708,Toronto → Rotterdam,Toronto,Rotterdam,Delivered,1756.77,UPS,Air,3693.70,Extreme Heat,Express,92342.50,30,2026-03-28,2026-03-30,2026-03-31
+TRK-803016,Sydney → Tokyo,Sydney,Tokyo,Delivered,3542.67,FedEx,Air,3901.20,Clear,Critical,97530.00,5,2026-03-11,2026-03-13,2026-03-14
+TRK-945376,Los Angeles → Tokyo,Los Angeles,Tokyo,In Transit,933.21,Hapag-Lloyd,Sea,4859.90,Clear,Express,277014.30,5,2026-03-24,2026-05-01,
+TRK-138006,Toronto → Melbourne,Toronto,Melbourne,Delivered,2685.92,UPS,Air,3742.40,Rain,Critical,187120.00,20,2026-01-23,2026-01-27,2026-01-27
+TRK-613954,Shanghai → Dubai,Shanghai,Dubai,Delivered,1046.81,DHL,Road,2512.90,Clear,Critical,79156.35,5,2026-02-20,2026-02-27,2026-02-26
+TRK-362910,Sydney → Melbourne,Sydney,Melbourne,Delivered,857.76,BlueDart,Rail,1737.50,Clear,Express,34750.00,5,2026-03-26,2026-04-03,2026-04-02
+TRK-327238,Melbourne → Berlin,Melbourne,Berlin,Delivered,957.23,CMA CGM,Sea,2149.10,Clear,Standard,112827.75,10,2026-02-19,2026-03-26,2026-03-26
+TRK-805614,Sydney → Chicago,Sydney,Chicago,Delivered,948.74,UPS,Air,1187.00,Clear,Overnight,14837.50,10,2026-02-03,2026-02-04,2026-02-05
+TRK-955205,Shanghai → Tokyo,Shanghai,Tokyo,Delivered,1710.10,FedEx,Air,3156.60,Clear,Standard,39457.50,10,2026-03-03,2026-03-04,2026-03-04
+TRK-761665,Tokyo → Chicago,Tokyo,Chicago,Delayed,2162.45,Hapag-Lloyd,Sea,3578.60,Snow,Critical,182508.60,50,2026-02-21,2026-03-27,
+TRK-970561,New York → Paris,New York,Paris,Delivered,692.00,Hapag-Lloyd,Sea,1606.80,Clear,Critical,53024.40,5,2026-01-31,2026-02-22,2026-02-23
+TRK-820235,Chicago → Singapore,Chicago,Singapore,Delayed,1088.50,UPS,Air,2544.50,Rain,Standard,63612.50,25,2026-03-28,2026-03-30,
+TRK-536164,Dubai → Paris,Dubai,Paris,In Transit,453.78,CMA CGM,Sea,1256.80,Clear,Critical,52785.60,5,2026-04-05,2026-05-03,
+TRK-360367,London → Toronto,London,Toronto,Delayed,2119.08,CMA CGM,Sea,3967.60,Storm,Overnight,196396.20,100,2026-01-27,2026-03-01,
+TRK-299887,Singapore → Dubai,Singapore,Dubai,Delayed,399.47,UPS,Rail,1214.10,Storm,Critical,39458.25,70,2026-01-28,2026-02-10,
+TRK-507661,Mumbai → Paris,Mumbai,Paris,Delivered,1296.28,DHL,Air,4589.10,Clear,Standard,172091.25,10,2026-02-23,2026-02-26,2026-02-25
+TRK-989604,New York → Sydney,New York,Sydney,Delayed,3232.76,UPS,Air,4177.70,Snow,Critical,104442.50,50,2026-02-03,2026-02-05,
+TRK-204065,Sydney → Toronto,Sydney,Toronto,Delivered,1786.50,FedEx,Air,3644.40,Clear,Overnight,182220.00,10,2026-03-15,2026-03-19,2026-03-18
+TRK-857249,Paris → Rotterdam,Paris,Rotterdam,Delivered,1548.69,UPS,Rail,3756.70,Clear,Overnight,56350.50,10,2026-03-16,2026-03-22,2026-03-23
+TRK-107425,Sydney → Melbourne,Sydney,Melbourne,Delayed,2814.86,UPS,Road,4887.10,Snow,Express,109959.75,50,2026-02-08,2026-02-13,
+TRK-917148,Toronto → Sydney,Toronto,Sydney,Delayed,2594.64,DHL,Air,3145.90,Clear,Express,78647.50,5,2026-03-04,2026-03-06,
+TRK-681353,Los Angeles → Tokyo,Los Angeles,Tokyo,Delivered,1096.23,FedEx,Air,825.10,Rain,Overnight,20627.50,25,2026-03-20,2026-03-22,2026-03-24
+TRK-970137,Sydney → Paris,Sydney,Paris,In Transit,167.59,Hapag-Lloyd,Sea,596.00,Clear,Standard,26820.00,10,2026-03-28,2026-04-27,
+TRK-825849,Tokyo → Toronto,Tokyo,Toronto,In Transit,437.63,Hapag-Lloyd,Sea,1543.50,Extreme Heat,Express,90294.75,55,2026-04-07,2026-05-16,
+TRK-228317,Paris → Rotterdam,Paris,Rotterdam,Delayed,1453.61,DHL,Road,3040.00,Rain,Express,95760.00,20,2026-03-23,2026-03-30,
+TRK-989222,Melbourne → Paris,Melbourne,Paris,Delayed,825.72,FedEx,Air,379.30,Storm,Express,9482.50,70,2026-02-06,2026-02-08,
+TRK-101488,Chicago → Sydney,Chicago,Sydney,Delivered,1597.49,Hapag-Lloyd,Sea,2426.60,Clear,Overnight,152875.80,10,2026-01-19,2026-03-02,2026-03-04
+TRK-989349,Sydney → Melbourne,Sydney,Melbourne,Delivered,1622.07,UPS,Road,3382.00,Clear,Express,106533.00,5,2026-01-28,2026-02-04,2026-02-04
+TRK-709901,Paris → Melbourne,Paris,Melbourne,Delayed,1521.98,CMA CGM,Sea,2387.80,Storm,Overnight,78797.40,100,2026-03-17,2026-04-08,
+TRK-154451,Mumbai → Chicago,Mumbai,Chicago,Delayed,981.18,FedEx,Air,1079.20,Rain,Express,40470.00,20,2026-01-14,2026-01-17,
+TRK-155363,Sydney → New York,Sydney,New York,Delivered,463.64,Hapag-Lloyd,Sea,526.60,Rain,Express,26856.60,20,2026-02-28,2026-04-03,2026-04-02
+TRK-635375,Melbourne → Sydney,Melbourne,Sydney,Delayed,2572.08,DHL,Road,4003.30,Rain,Express,54044.55,20,2026-04-10,2026-04-13,
+TRK-932200,Singapore → Toronto,Singapore,Toronto,Delivered,992.73,DHL,Air,2681.80,Rain,Standard,100567.50,25,2026-02-27,2026-03-02,2026-03-03
+TRK-415066,Melbourne → Sydney,Melbourne,Sydney,Delayed,1312.61,FedEx,Air,3428.10,Clear,Critical,42851.25,5,2026-02-21,2026-02-22,
+TRK-583532,Los Angeles → Melbourne,Los Angeles,Melbourne,Delayed,2932.14,FedEx,Air,2968.80,Storm,Critical,148440.00,70,2026-02-08,2026-02-12,
+TRK-765262,Melbourne → Rotterdam,Melbourne,Rotterdam,Delivered,703.54,Maersk,Sea,2138.00,Rain,Standard,83382.00,25,2026-03-05,2026-03-31,2026-04-01
+TRK-630987,London → Sydney,London,Sydney,In Transit,714.71,CMA CGM,Sea,2457.10,Snow,Overnight,84769.95,55,2026-04-11,2026-05-04,
+TRK-842169,Dubai → Tokyo,Dubai,Tokyo,Delivered,849.06,UPS,Rail,3885.30,Rain,Critical,48566.25,20,2026-01-20,2026-01-25,2026-01-24
+TRK-650895,Dubai → Singapore,Dubai,Singapore,Delivered,3370.82,UPS,Air,3502.60,Rain,Critical,131347.50,20,2026-02-02,2026-02-05,2026-02-05
+TRK-127195,Tokyo → Dubai,Tokyo,Dubai,Delayed,198.35,FedEx,Road,272.90,Snow,Standard,3684.15,55,2026-02-19,2026-02-22,
+TRK-169160,Singapore → Berlin,Singapore,Berlin,Delayed,443.43,Maersk,Sea,738.30,Storm,Overnight,27686.25,100,2026-03-18,2026-04-12,
+TRK-618757,Melbourne → Los Angeles,Melbourne,Los Angeles,Delivered,1544.84,CMA CGM,Sea,4983.30,Clear,Overnight,179398.80,10,2026-02-24,2026-03-20,2026-03-21
+TRK-112233,Mumbai → Rajasthan,Mumbai,Rajasthan,Delivered,4560.00,DHL,Air,100.00,Clear,Standard,1250.00,10,2026-04-16,2026-04-17,2026-04-15
